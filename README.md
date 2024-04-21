@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# NLS diagnosztika
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Frekvencia terápia
+- A frekvenciakezelés olyan módszer, amelyben a rezgések alkalmazásával kioltják az élősködőket és a kórokozókat, miközben harmonizálják és támogatják a szervezet működését. Bár sokan hajlamosak úgy gondolni, hogy ez csupán hókuszpókusz, valójában a frekvenciakezelés mögött a fizika áll, amelynek alapjai ma már tudományosan is alátámasztottak.
 
-## Available Scripts
+- A tudomány már régóta ismeri és alkalmazza az emberi gyógyításban a hangok erejét. Számos vallási szertartás tartalmaz meghatározott énekeket és hangeffektusokat, amelyek célja a közérzet javítása és a test-lelkünk feltöltése. Az emberiség évezredek óta használja a hangok gyógyító hatását, és most már pontosan tudjuk, hogy ezeknek a jelenségeknek mi az alapja. Frekvenciákat pedig létre lehet hozni vagyis lehet generálni hangokkal, frekvenciagenerátorral.
 
-In the project directory, you can run:
+- A szervezetünkben minden folyamatos mozgásban van, és minden, még a legapróbb alkotóelem is rezeg. A rezonancia, vagyis a gerjesztett rezgés jelentőségét egyszerű példákon keresztül is könnyű megérteni. Az inga vagy a hangvillák rezgése szemlélteti, hogy hogyan képes egy rezonáns rendszer megváltoztatni a környezetét.
 
-### `npm start`
+- Szervezetünk nagy része víz, és minden sejtnek saját elektromágneses rezonanciája van. A harmonikus együttműködésnek köszönhetően építik fel a szerveket és a szervrendszereket. A frekvenciaterápia alapját képező tudományos felfedezéseknek köszönhetően ma már világosabb a kép arról, hogy miként befolyásolhatók és támogathatók a szervezet saját rezgései.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Az 1920-as években Raymond Royal Rife és George Lakhowsky dolgozták ki a frekvenciakezelés alapjait, melyeket korukban csodabogaraknak tartottak. Ők határozták meg a vírusok és kórokozók pusztító frekvenciáit, és fejlesztették ki azokat a módszereket, amelyekkel kizárólag a támadni kívánt élősködőkre lehetett hatást gyakorolni.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A frekvenciakezelés során azonosítva van a betegségeket okozó rezgések, majd ezek a sajátos frekvenciák vannak felhasználva a kórokozók kioltására. Ezek az irányított rezgések lengésbe hozzák a mikroorganizmus sejtfalát, membránját nem bírják elviselni a növekvő lengést és egy idő után megrepednek. Ezzel a mikroorganizmus elpusztul, az az deaktiválódik!
 
-### `npm test`
+- Az eljárásnak nincs kockázata, és számos esetben eredményesnek bizonyult, még olyan betegeknél is, akik már feladták a gyógyulás reményét. A frekvenciakezelés egy ígéretes módszer, amely jelentős változásokat hozhat az emberi általános közérzet és jólét érdekében.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Pióca terápia
 
-### `npm run build`
+# Safe laser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Magamról
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Galéria
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Termékek
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Nyelvválasztás
