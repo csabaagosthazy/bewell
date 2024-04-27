@@ -47,12 +47,6 @@ function App() {
             <li className="nav-item">
               <Link className="nav-link" to="/Magamrol">Magamról</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Galery">Galéria</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/Termekek">Termékek?</Link>
-            </li>
           </ul>
         </div>
       </div>
