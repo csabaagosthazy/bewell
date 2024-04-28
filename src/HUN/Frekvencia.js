@@ -23,7 +23,8 @@ function Frekvencia() {
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              src="images/sample.jpeg"
+              style={{width: "20rem"}}
+              src="images/plasma-generator.JPG"
               alt="Leech Therapy"
             />
           </div>
@@ -31,7 +32,7 @@ function Frekvencia() {
             <div class="container w-75">
               <h5>Frekvencia terápia</h5>
               <p>
-              A frekvenciakezelés olyan módszer, amelyben a rezgések alkalmazásával kioltják az élősködőket és a kórokozókat, miközben harmonizálják és támogatják a szervezet működését. Bár sokan hajlamosak úgy gondolni, hogy ez csupán hókuszpókusz, valójában a frekvenciakezelés mögött a fizika áll, amelynek alapjai ma már tudományosan is alátámasztottak.
+              A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer, amelyben a rezgések alkalmazásával kioltják az élősködőket, kórokozókat, különböző mikroorganizmusokat, miközben harmonizálják és támogatják a szervezetet.
               </p>
             </div>
           </div>
@@ -43,9 +44,8 @@ function Frekvencia() {
           <div className="col-md-6">
             <div className="card border-0 shadow">
               <div className="card-body">
-                <h5 className="card-title text-center">ADJ CÍMET</h5>
                 <p className="card-text">
-                A tudomány már régóta ismeri és alkalmazza az emberi gyógyításban a hangok erejét. Számos vallási szertartás tartalmaz meghatározott énekeket és hangeffektusokat, amelyek célja a közérzet javítása és a test-lelkünk feltöltése. Az emberiség évezredek óta használja a hangok gyógyító hatását, és most már pontosan tudjuk, hogy ezeknek a jelenségeknek mi az alapja. Frekvenciákat pedig létre lehet hozni vagyis lehet generálni hangokkal, frekvenciagenerátorral.
+                A kezelés során a gép azonosítja a betegségeket okozó rezgéseket, majd ezeket a sajátos frekvenciákat használja föl a kórokozók kioltására. Ezek az irányított rezgések lengésbe hozzák a mikroorganizmus sejtfalát, membránját, azok nem bírják elviselni a növekvő lengést és egy idő után megrepednek. Ezzel a mikroorganizmus elpusztul, azaz deaktiválódik!
                 </p>
               </div>
             </div>
@@ -53,7 +53,7 @@ function Frekvencia() {
           <div className="col-md-6">
             <div className="card border-0 shadow">
               <img
-                src="images/sample.jpeg"
+                src="images/nls.jpg"
                 className="card-img-top"
                 alt="Leech Therapy Process"
               />
@@ -62,7 +62,7 @@ function Frekvencia() {
         </div>
       </div>
 
-      <div className="container my-5">
+      {/* <div className="container my-5">
         <div className="row justify-content-center">
           <div className="col-md-8">
             <div className="testimonial bg-light p-4">
@@ -92,7 +92,8 @@ function Frekvencia() {
           <div className="col-md-6">
             <div className="p-3  text-center">
               <img
-                src="images/sample.jpeg"
+                src="images/bgnd.jpeg"
+                style={{width: "20rem"}}
                 className="rounded"
                 alt="Leech Therapy Process"
               />
@@ -143,7 +144,7 @@ function Frekvencia() {
                 </div>
             </div>
         </div>
-      </div>
+      </div> */}
 
       <footer className="footer bg-dark text-light py-4">
         <div className="container">

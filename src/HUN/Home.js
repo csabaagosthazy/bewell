@@ -25,7 +25,8 @@ function Home() {
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              src="/images/sample.jpeg"
+              style={{ width: "20rem" }}
+              src="/images/magamrol.jpg"
               alt=""
             />
           </div>
@@ -33,13 +34,16 @@ function Home() {
             <div class="container w-75">
               <h5>Magamról</h5>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
-                quam voluptates labore impedit, deserunt iste! Aspernatur earum
-                dolore quis exercitationem, facere, officiis odio assumenda nemo
-                reiciendis vero eaque rem quidem.
+                Üdvözlöm! Kozma Magdolna vagyok, évtizedek óta az egészséges
+                életmód híve, mind saját magam, mind pedig a szeretteim körében.
+                Engem már gyermekkoromban az otthoni környezetben felnőve
+                bevezettek a népi gyógymódok világába, a természet kínálta
+                öngyógyító lehetőségekbe, amiket azóta is gyakorlok. Így ezek az
+                ismeretek mélyen gyökereznek bennem, szorosan összefonódtak
+                mindennapi életemmel.
               </p>
               <button class="btn btn-primary">
-                <Link className="nav-link" to="/NLS">
+                <Link className="nav-link" to="/Magamrol">
                   Tovább olvasom
                 </Link>
               </button>
@@ -51,11 +55,14 @@ function Home() {
       <div>
         <div className="w-100 p-3">
           <div className="row row-cols-1 row-cols-md-3 text-center">
-            <div className="col p-3">
+            <div className="col-md p-3">
               <br />
               <h5 className="text-center">NLS diagnosztika</h5>
               <p className="m-2 text-start">
-                Az NLS technológia új korszakot nyit az egészségügyben, kínálva egy hatékony és pontos eszközt a diagnózis és terápia terén. Összehasonlítva a hagyományos képalkotó módszerekkel, az NLS technológia kiemelkedő pontosságot és sokoldalúságot biztosít az emberi test elemzésében.
+                E technológia átfogó elemzést tesz lehetővé az emberi test
+                minden szervéről és rendszeréről. Ősi gyógyító hagyományokra
+                épít, miközben a modern tudományos kutatások eredményeire is
+                támaszkodik.
               </p>
 
               <button class="btn btn-primary m-3">
@@ -64,13 +71,21 @@ function Home() {
                 </Link>
               </button>
               <br />
-              <img src="images/sample.jpeg" className="rounded" alt="" />
+              <img
+                src="/images/nls.jpg"
+                style={{ width: "15rem" }}
+                className="rounded"
+                alt=""
+              />
             </div>
-            <div className="col p-3">
+            <div className="col-md p-3">
               <br />
               <h5>Pióca terápia</h5>
               <p className="m-2">
-                A hirudoterápia hatékony és mellékhatások nélküli módszer különféle betegségek kezelésére, elsősorban érrendszeri problémáknál alkalmazzák. A piócák segítenek enyhíteni a véráramlást, normalizálni a vérnyomást és kezelni a vérrögképződéssel kapcsolatos betegségeket. Emellett hatékonyak az aranyér, ízületi problémák, idegrendszeri betegségek és bőrbetegségek kezelésében is. A piócák segítséget nyújtanak a fertőző betegségek kezelésében és az immunrendszer erősítésében is. A hirudoterápia széles körben alkalmazható és jó eredményeket mutat, valamint kozmetikai célokra is felhasználható.
+                A hidroterápia hatékony és mellékhatások nélküli módszer
+                különféle betegségek kezelésére, elsősorban érrendszeri
+                problémáknál alkalmazzák, a nyirok keringés serkentésére, segít
+                felszabadítani a méreganyagokat.
               </p>
               <button class="btn btn-primary m-3">
                 <Link className="nav-link" to="/Pioca">
@@ -78,13 +93,22 @@ function Home() {
                 </Link>
               </button>
               <br />
-              <img src="images/sample.jpeg" className="rounded" alt="" />
+              <img
+                src="images/pioca.jpeg"
+                style={{ width: "15rem" }}
+                className="rounded"
+                alt=""
+              />
             </div>
-            <div className="col p-3">
+            <div className="col-md p-3">
               <br />
               <h5 className="text-center">Safe laser</h5>
               <p className="m-2 text-end">
-                A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül mélyen hatol a szövetekbe, akár 10 cm-es mélységig is, kiválóan alkalmazható a mozgásszervi betegségek terápiájában. Ennek biológiai hatása fájdalomcsillapító, gyulladáscsökkentő és gyorsítja az izmok, inak, ízületek gyógyulását. Nagyobb dózis esetén akár az ízületi porcfelszínek regenerálására is alkalmas.
+                A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül
+                mélyen hatol a szövetekbe, akár 10 cm-es mélységig is, kiválóan
+                alkalmazható a mozgásszervi betegségek terápiájában. A lézerfény
+                aktiválja az ATP termelődését, mely az energiatermelés alapja a
+                sejtekben.
               </p>
               <button class="btn btn-primary m-3">
                 <Link className="nav-link" to="/Safe">
@@ -92,7 +116,12 @@ function Home() {
                 </Link>
               </button>
               <br />
-              <img src="images/sample.jpeg" className="rounded" alt="" />
+              <img
+                style={{ width: "15rem" }}
+                src="/images/safe-laser.jpg"
+                className="rounded"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -103,27 +132,30 @@ function Home() {
           <div className="col">
             <h3 className="text-center">Frekvencia terápia</h3>
             <div class="row">
-              <div className="col">
-                <p className="text-start">
-                  A szervezetünkben minden folyamatos mozgásban van, és minden, még a legapróbb alkotóelem is rezeg. A rezonancia, vagyis a gerjesztett rezgés jelentőségét egyszerű példákon keresztül is könnyű megérteni. Az inga vagy a hangvillák rezgése szemlélteti, hogy hogyan képes egy rezonáns rendszer megváltoztatni a környezetét.
-                </p>
-              </div>
-              <div className="col">
-                <p className="text-start">
-                  A frekvenciakezelés olyan módszer, amelyben a rezgések alkalmazásával kioltják az élősködőket és a kórokozókat, miközben harmonizálják és támogatják a szervezet működését. Bár sokan hajlamosak úgy gondolni, hogy ez csupán hókuszpókusz, valójában a frekvenciakezelés mögött a fizika áll, amelynek alapjai ma már tudományosan is alátámasztottak.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <p>
-              A tudomány már régóta ismeri és alkalmazza az emberi gyógyításban a hangok erejét. Számos vallási szertartás tartalmaz meghatározott énekeket és hangeffektusokat, amelyek célja a közérzet javítása és a test-lelkünk feltöltése. Az emberiség évezredek óta használja a hangok gyógyító hatását, és most már pontosan tudjuk, hogy ezeknek a jelenségeknek mi az alapja. Frekvenciákat pedig létre lehet hozni vagyis lehet generálni hangokkal, frekvenciagenerátorral.
-            </p>
-            <button class="btn btn-primary m-3">
+              <p className="text-start">
+                A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,
+                amelyben a rezgések alkalmazásával kioltják az élősködőket,
+                kórokozókat, különböző mikroorganizmusokat, miközben
+                harmonizálják és támogatják a szervezetet. A kezelés során a gép
+                azonosítja a betegségeket okozó rezgéseket, majd ezeket a
+                sajátos frekvenciákat használja föl a kórokozók kioltására. Ezek
+                az irányított rezgések lengésbe hozzák a mikroorganizmus
+                sejtfalát, membránját, azok nem bírják elviselni a növekvő
+                lengést és egy idő után megrepednek. Ezzel a mikroorganizmus
+                elpusztul, azaz deaktiválódik!
+              </p>
+              <img
+                src="/images/plasma-generator.jpg"
+                style={{ width: "25rem" }}
+                className="rounded m-auto"
+                alt=""
+              />
+              <button class="btn btn-primary mt-3">
                 <Link className="nav-link" to="/Frekvencia">
                   Tovább olvasom
                 </Link>
               </button>
+            </div>
           </div>
         </div>
       </div>

@@ -25,7 +25,7 @@ function Pioca() {
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              src="images/sample.jpeg"
+              src="images/pioca.jpeg"
               alt="Pioca Therapy"
             />
           </div>
@@ -33,16 +33,46 @@ function Pioca() {
             <div className="container w-75">
               <h5>Pióca terápia</h5>
               <p>
-                A pióca terápia évszázadok óta használt gyógymód, melynek során
-                a piócák vérrel táplálkoznak, és bizonyítottan pozitív hatással
-                lehetnek számos egészségügyi problémára.
+                A hidroterápia hatékony és mellékhatások nélküli módszer
+                különféle betegségek kezelésére, elsősorban érrendszeri
+                problémáknál alkalmazzák, a nyirok keringés serkentésére, segít
+                felszabadítani a méreganyagokat.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container-fluid py-5 bg-light">
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="card border-0 shadow">
+              <div className="card-body">
+                <p className="card-text">
+                  A piócák segítenek enyhíteni a véráramlást, normalizálni a
+                  vérnyomást, a vér sűrűségét, és kezelni a vérrögképződéssel
+                  kapcsolatos problémákat. Emellett hatékonyak az aranyér, az
+                  ízületi, idegrendszeri és bőrbetegségek kezelésében, valamint
+                  az immunrendszer erősítésében is. A piócaterápia széles körben
+                  alkalmazható és jó eredményeket mutat, valamint kozmetikai
+                  célokra is felhasználható.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="card border-0 shadow">
+              <img
+                src="/images/bgnd.jpeg"
+                className="card-img-top"
+                alt="Leech Therapy Process"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="container-fluid py-5 bg-light">
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
             <h2 className="display-4">
@@ -69,7 +99,7 @@ function Pioca() {
         </p>
       </div>
 
-      {/* Content Section */}
+      
       <div className="container mt-5">
         <div className="row">
           <div className="col-md-6">
@@ -94,7 +124,7 @@ function Pioca() {
         </div>
       </div>
 
-      {/* Testimonials Section */}
+      
       <div className="container mt-4">
         <div className="row">
           <div className="p-3">
@@ -110,7 +140,7 @@ function Pioca() {
         </div>
       </div>
 
-      {/* Image Slider Section */}
+      
       <div className="w-75 m-auto mt-4">
         <div className="row">
           <div className="col-md-7">
@@ -143,7 +173,7 @@ function Pioca() {
             
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Footer Section */}
       <footer className="footer bg-dark text-light py-4 mt-4">

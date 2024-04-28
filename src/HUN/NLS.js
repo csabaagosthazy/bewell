@@ -25,7 +25,8 @@ function NLS() {
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              src="/images/sample.jpeg"
+              src="/images/plasma-generator.jpg"
+              style={{ width: "20rem" }}
               alt=""
             />
           </div>
@@ -33,18 +34,63 @@ function NLS() {
             <div class="container w-75">
               <h5>NLS Diagnosztika</h5>
               <p>
-                Az NLS technológia új korszakot nyit az egészségügyben, kínálva
-                egy hatékony és pontos eszközt a diagnózis és terápia terén.
-                Összehasonlítva a hagyományos képalkotó módszerekkel, az NLS
-                technológia kiemelkedő pontosságot és sokoldalúságot biztosít az
-                emberi test elemzésében.
+                E technológia átfogó elemzést tesz lehetővé az emberi test
+                minden szervéről és rendszeréről. Ősi gyógyító hagyományokra
+                épít, miközben a modern tudományos kutatások eredményeire is
+                támaszkodik.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container mt-5">
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-md-6">
+            <div className="card border-0 shadow">
+              <div className="card-body">
+                <h5 className="card-title text-center">Magába foglalja:</h5>
+                <div className="card-text">
+                  <ul>
+                    <li>
+                      Gasztroentrológiát, ami az emésztőrendszerrel kapcsolatos
+                    </li>
+                    <li>
+                      Pulmonólógiát ami a tüdővel és légzőrendszerrel
+                      kapcsolatos
+                    </li>
+                    <li>
+                      Nőgyógyászati panaszokat és elváltozásokat: ciszta, nemi
+                      betegségek, endometriózis kimutatását
+                    </li>
+                    <li>
+                      Endokrinológiát, a szervezet hormonháztartását:
+                      pajzsmirigy, agyalapi mirigy, petefészek, herék,
+                      mellékvese állapotát
+                    </li>
+                    <li>
+                      Mikroorganizmusok vizsgálatát: a baktériumok, gombák,
+                      paraziták, a vírus fertőzések jelenlétét és kezelési
+                      lehetőségeit mutatja
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="card border-0 shadow">
+              <img
+                src="/images/bgnd.jpeg"
+                className="card-img-top"
+                alt="Leech Therapy Process"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="container mt-5">
         <div className="row">
           <div className="col-md-6">
             <div className="p-3">
@@ -158,7 +204,7 @@ function NLS() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <footer className="footer bg-dark text-light py-4 mt-4">
         <div className="container">
