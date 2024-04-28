@@ -34,10 +34,7 @@ function Safe() {
             <div class="container w-75">
               <h5>Safe laser</h5>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
-                quam voluptates labore impedit, deserunt iste! Aspernatur earum
-                dolore quis exercitationem, facere, officiis odio assumenda nemo
-                reiciendis vero eaque rem quidem.
+                A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül mélyen hatol a szövetekbe, akár 10 cm-es mélységig is, kiválóan alkalmazható a mozgásszervi betegségek terápiájában. Ennek biológiai hatása fájdalomcsillapító, gyulladáscsökkentő és gyorsítja az izmok, inak, ízületek gyógyulását. Nagyobb dózis esetén akár az ízületi porcfelszínek regenerálására is alkalmas.
               </p>
             </div>
           </div>
@@ -49,11 +46,10 @@ function Safe() {
         <div className="row justify-content-center">
           <div className="col-md-8 text-center">
             <h2 className="display-4">
-              Fedezze fel a természet gyógyító erejét
+            Fájdalomcsillapítás és gyulladás csökkentés
             </h2>
             <p className="lead">
-              A pióca terápia nem csupán egy kezelés, hanem egy élmény, amely
-              összeköt minket a természet csodáival.
+            A lézerterápia többféle biológiai folyamaton keresztül csökkenti a fájdalomérzetet és a gyulladást. Blokkolja a fájdalom-ingerületek átvitelét, csökkenti a gyulladást és a duzzanatot, valamint fokozza a természetes fájdalomcsillapító vegyi anyagok termelődését.
             </p>
           </div>
         </div>
@@ -65,9 +61,9 @@ function Safe() {
           class="img-fluid rounded mb-3"
           alt="Kép leírása"
         />
+        <h5 className="text-center">Sebek és sérülések gyorsabb gyógyulása</h5>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        A lágy-lézer biostimulációs hatása serkenti a sejtek és szövetek regenerálódását, így felgyorsítja a sebgyógyulást. A lézerterápia fokozza a kollagén termelődést és javítja a vér- és nyirokkeringést, ami elősegíti a sebek gyorsabb összeforradását és a hegképződés csökkenését.
         </p>
       </div>
 
@@ -85,21 +81,15 @@ function Safe() {
         </div>
         <div class="row">
           <div class="col-6">
-            <h3 className="text-center">Egy elégedett páciens vallomása</h3>
+            <h3 className="text-center">Túlzott hegszövet képződés csökkentése</h3>
             <p className="text-start">
-              "Sokáig szenvedtem a lábdagadástól, és semmi sem segített. Azután
-              kipróbáltam a pióca terápiát, és hihetetlenül hatékonynak
-              bizonyult. Most újra könnyedén tudok járni, és a dagadás teljesen
-              eltűnt!"
+            A lézerterápia hatékonyan csökkenti a vágások, égési sérülések és műtétek utáni túlzott hegszövet képződést. Javítja a sérült terület vérellátását és segíti a salakanyagok eltávolítását, így gyorsítva a gyógyulási folyamatot és minimalizálva a hegszövet kialakulását.
             </p>
           </div>
           <div class="col-6">
-            <h3 className="text-center">Egy elégedett páciens vallomása</h3>
+            <h3 className="text-center">Idegi működés javítása</h3>
             <p className="text-start">
-              "Sokáig szenvedtem a lábdagadástól, és semmi sem segített. Azután
-              kipróbáltam a pióca terápiát, és hihetetlenül hatékonynak
-              bizonyult. Most újra könnyedén tudok járni, és a dagadás teljesen
-              eltűnt!"
+            A lézerterápia felgyorsítja az idegi kapcsolatok regenerációját és fokozza az idegrostokon továbbított jelek erősségét, ezáltal javítva az idegek és izmok működését. Ennek következtében enyhülnek az idegsérülések tünetei, mint az éles fájdalom vagy a zsibbadás.
             </p>
           </div>
         </div>
@@ -109,11 +99,9 @@ function Safe() {
         <div className="row">
           <div className="col-md-6">
             <div className="p-3">
-              <h5 className="text-center">Hogyan működik?</h5>
+              <h5 className="text-center">Javuló immunfolyamatok</h5>
               <p className="m-2 text-start">
-                A piócák nyálukban olyan enzimeket tartalmaznak, amelyek
-                véralvadásgátló hatással rendelkeznek. Ezáltal segíthetnek
-                csökkenteni a vérrögképződést és javítani a vérkeringést.
+              A lézerfény aktiválja az ATP termelődését, mely az energiatermelés alapja a sejtekben. Ez fokozza az immunrendszer hatékonyságát, segítve a szervezetet a mikrobák és kórokozók elleni harcban.
               </p>
             </div>
           </div>
@@ -124,60 +112,6 @@ function Safe() {
                 className="rounded"
                 alt="Leech Therapy Process"
               />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Benefits Section */}
-      <div className="container my-5">
-        <div className="row">
-          <div className="col-md-4 mb-3">
-            <div className="card h-100">
-              <img
-                src="/images/sample.jpeg"
-                className="card-img-top"
-                alt="Benefit 1"
-              />
-              <div className="card-body">
-                <h5 className="card-title">Vérkeringés javítása</h5>
-                <p className="card-text">
-                  A piócák enzimjei segítenek a vérkeringés fokozásában,
-                  elősegítve az egészséges életmódot.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-3">
-            <div className="card h-100">
-              <img
-                src="/images/sample.jpeg"
-                className="card-img-top"
-                alt="Benefit 2"
-              />
-              <div className="card-body">
-                <h5 className="card-title">Fájdalomcsillapítás</h5>
-                <p className="card-text">
-                  Természetes fájdalomcsillapítóként ismert, a pióca terápia
-                  enyhíti a krónikus fájdalmakat.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 mb-3">
-            <div className="card h-100">
-              <img
-                src="/images/sample.jpeg"
-                className="card-img-top"
-                alt="Benefit 3"
-              />
-              <div className="card-body">
-                <h5 className="card-title">Gyulladáscsökkentés</h5>
-                <p className="card-text">
-                  A piócaterápia csökkenti a gyulladást és elősegíti a gyorsabb
-                  gyógyulást.
-                </p>
-              </div>
             </div>
           </div>
         </div>

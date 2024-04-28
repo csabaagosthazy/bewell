@@ -33,10 +33,11 @@ function NLS() {
             <div class="container w-75">
               <h5>NLS Diagnosztika</h5>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
-                quam voluptates labore impedit, deserunt iste! Aspernatur earum
-                dolore quis exercitationem, facere, officiis odio assumenda nemo
-                reiciendis vero eaque rem quidem.
+                Az NLS technológia új korszakot nyit az egészségügyben, kínálva
+                egy hatékony és pontos eszközt a diagnózis és terápia terén.
+                Összehasonlítva a hagyományos képalkotó módszerekkel, az NLS
+                technológia kiemelkedő pontosságot és sokoldalúságot biztosít az
+                emberi test elemzésében.
               </p>
             </div>
           </div>
@@ -47,19 +48,20 @@ function NLS() {
         <div className="row">
           <div className="col-md-6">
             <div className="p-3">
-              <h5 className="text-center">NLS diagnosztika</h5>
+              <h5 className="text-center">Pontos Diagnosztika</h5>
               <p className="m-2 text-start">
-                Az NLS diagnosztikai rendszer egyedülálló lehetőséget kínál a
-                szervezet állapotának teljes körű vizsgálatára, az energetikai
-                egyensúly felmérésétől a különböző szervrendszerek működésének
-                elemzéséig.
+                E technológia átfogó elemzéstesz lehetővé az emberi test minden
+                szervéről és rendszeréről. Ez magában foglalja a
+                kardiovaszkuláris, gasztrointesztinális, urogenitális,
+                muszkuloszkeletális, bronchopulmonális, endokrin és
+                idegrendszeri rendszereket.
               </p>
             </div>
           </div>
           <div className="col-md-6">
             <div className="p-3">
               <img
-                src="https://via.placeholder.com/300"
+                src="images/sample.jpeg"
                 className="rounded"
                 alt=""
               />
@@ -73,7 +75,7 @@ function NLS() {
           <div className="col-md-6 order-md-1">
             <div className="p-3">
               <img
-                src="https://via.placeholder.com/300"
+                src="images/sample.jpeg"
                 className="rounded"
                 alt=""
               />
@@ -81,13 +83,14 @@ function NLS() {
           </div>
           <div className="col-md-6 order-md-2">
             <div className="p-3">
-              <h3 className="text-center">Frekvencia terápia</h3>
+              <h5 className="text-center">
+                Laboratóriumi Minőségű Információk
+              </h5>
               <p className="text-start">
-                A frekvencia terápia az egyik leghatékonyabb módszer a test
-                energetikai egyensúlyának helyreállítására és a betegségek
-                kezelésére. Az alacsony frekvenciás rezgések segítenek a sejtek
-                regenerálódásában és a test energetikai mezőjének
-                harmonizálásában.
+                Az eszköz nem csupán anatómiai információkat szolgáltat, hanem
+                képes biokémiai elemzést is végezni a vérben lévő anyagokról,
+                hormonszintekről és immunitásról anélkül, hogy beavatkozást
+                igényelne.
               </p>
               <p className="text-start">
                 A frekvencia terápia alkalmazása során különböző frekvenciájú
@@ -96,10 +99,13 @@ function NLS() {
                 kezelés hatékony és fájdalommentes, és számos egészségügyi
                 probléma esetén segíthet a gyógyulásban.
               </p>
+              <h5 className="text-center">Átfogó Kórfolyamatok Feltárása</h5>
               <p className="text-start">
-                A frekvencia terápia egyre népszerűbbé válik a holisztikus
-                gyógyítás területén, és számos pozitív hatással rendelkezik az
-                egészségre és az életminőségre.
+                E modern analizátor képes elemzést végezni a fertőzések
+                jelenlétéről a szervekben és rendszerekben, segítségével
+                megvizsgálhatók és kezelhetők a különféle kórfolyamatok,
+                beleértve allergiákat, hormonális egyensúlytalanságokat és az
+                idegi vagy érzelmi problémákat.
               </p>
             </div>
           </div>
@@ -109,34 +115,31 @@ function NLS() {
       <div className="w-75 m-auto mt-4">
         <div className="row">
           <div className="col-md-7">
-            <h3 className="text-center">Frekvencia terápia</h3>
+            <h3 className="text-center">A Tudományos Alapok Háttére</h3>
 
             <div className="row">
               <div className="col">
                 <p className="text-start">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Maiores expedita, ex dolor animi delectus quisquam aliquam
-                  quam nobis necessitatibus, iure repellat alias quaerat
-                  dignissimos porro non. Asperiores officiis quidem
-                  exercitationem!
+                  Az NLS technológia nem csupán a modern idők terméke, hanem
+                  gyökerei az 1920-as évekig nyúlnak vissza, amikor Dr. Rife és
+                  Dr. Lakhovsky már kutatásaikkal előrevetítették az ilyen
+                  típusú diagnosztika és terápia lehetőségeit.
                 </p>
               </div>
               <div className="col">
                 <p className="text-start">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Maiores expedita, ex dolor animi delectus quisquam aliquam
-                  quam nobis necessitatibus, iure repellat alias quaerat
-                  dignissimos porro non. Asperiores officiis quidem
-                  exercitationem!
+                  Ősi gyógyító hagyományokra épít, miközben a modern tudományos
+                  kutatások eredményeire támaszkodik.
                 </p>
               </div>
             </div>
             <div className="row">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-                rerum, aperiam est quam in error impedit nemo, ratione, magnam
-                voluptate qui. Fugit cum magnam sint quos officia sapiente
-                commodi cupiditate.
+                E modern analizátor képes elemzést végezni a fertőzések
+                jelenlétéről a szervekben és rendszerekben, segítségével
+                megvizsgálhatók és kezelhetők a különféle kórfolyamatok,
+                beleértve allergiákat, hormonális egyensúlytalanságokat és az
+                idegi vagy érzelmi problémákat.
               </p>
             </div>
           </div>

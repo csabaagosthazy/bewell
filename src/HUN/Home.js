@@ -55,10 +55,7 @@ function Home() {
               <br />
               <h5 className="text-center">NLS diagnosztika</h5>
               <p className="m-2 text-start">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Possimus id modi quia accusamus recusandae, sit numquam aliquid
-                praesentium ex veritatis deserunt quis voluptas repellendus unde
-                error commodi similique rem voluptatibus!
+                Az NLS technológia új korszakot nyit az egészségügyben, kínálva egy hatékony és pontos eszközt a diagnózis és terápia terén. Összehasonlítva a hagyományos képalkotó módszerekkel, az NLS technológia kiemelkedő pontosságot és sokoldalúságot biztosít az emberi test elemzésében.
               </p>
 
               <button className="text-center btn btn-primary m-3">
@@ -71,10 +68,7 @@ function Home() {
               <br />
               <h5>Pióca terápia</h5>
               <p className="m-2">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
-                sit quae distinctio quibusdam, quisquam molestiae iusto numquam
-                quia eveniet, autem, animi ipsum nesciunt velit eaque recusandae
-                sequi amet. Quis, veritatis?
+                A hirudoterápia hatékony és mellékhatások nélküli módszer különféle betegségek kezelésére, elsősorban érrendszeri problémáknál alkalmazzák. A piócák segítenek enyhíteni a véráramlást, normalizálni a vérnyomást és kezelni a vérrögképződéssel kapcsolatos betegségeket. Emellett hatékonyak az aranyér, ízületi problémák, idegrendszeri betegségek és bőrbetegségek kezelésében is. A piócák segítséget nyújtanak a fertőző betegségek kezelésében és az immunrendszer erősítésében is. A hirudoterápia széles körben alkalmazható és jó eredményeket mutat, valamint kozmetikai célokra is felhasználható.
               </p>
               <button className="text-center btn btn-primary m-3">
                 <a href="#">Bővebben</a>
@@ -86,10 +80,7 @@ function Home() {
               <br />
               <h5 className="text-center">Safe laser</h5>
               <p className="m-2 text-end">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
-                sit quae distinctio quibusdam, quisquam molestiae iusto numquam
-                quia eveniet, autem, animi ipsum nesciunt velit eaque recusandae
-                sequi amet. Quis, veritatis?
+                A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül mélyen hatol a szövetekbe, akár 10 cm-es mélységig is, kiválóan alkalmazható a mozgásszervi betegségek terápiájában. Ennek biológiai hatása fájdalomcsillapító, gyulladáscsökkentő és gyorsítja az izmok, inak, ízületek gyógyulását. Nagyobb dózis esetén akár az ízületi porcfelszínek regenerálására is alkalmas.
               </p>
               <button className="text-center btn btn-primary m-3">
                 <a href="#">Bővebben</a>
@@ -108,28 +99,19 @@ function Home() {
             <div class="row">
               <div className="col">
                 <p className="text-start">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Maiores expedita, ex dolor animi delectus quisquam aliquam quam
-                  nobis necessitatibus, iure repellat alias quaerat dignissimos
-                  porro non. Asperiores officiis quidem exercitationem!
+                  A szervezetünkben minden folyamatos mozgásban van, és minden, még a legapróbb alkotóelem is rezeg. A rezonancia, vagyis a gerjesztett rezgés jelentőségét egyszerű példákon keresztül is könnyű megérteni. Az inga vagy a hangvillák rezgése szemlélteti, hogy hogyan képes egy rezonáns rendszer megváltoztatni a környezetét.
                 </p>
               </div>
               <div className="col">
                 <p className="text-start">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Maiores expedita, ex dolor animi delectus quisquam aliquam quam
-                  nobis necessitatibus, iure repellat alias quaerat dignissimos
-                  porro non. Asperiores officiis quidem exercitationem!
+                  A frekvenciakezelés olyan módszer, amelyben a rezgések alkalmazásával kioltják az élősködőket és a kórokozókat, miközben harmonizálják és támogatják a szervezet működését. Bár sokan hajlamosak úgy gondolni, hogy ez csupán hókuszpókusz, valójában a frekvenciakezelés mögött a fizika áll, amelynek alapjai ma már tudományosan is alátámasztottak.
                 </p>
               </div>
             </div>
           </div>
           <div className="row">
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
-              rerum, aperiam est quam in error impedit nemo, ratione, magnam
-              voluptate qui. Fugit cum magnam sint quos officia sapiente commodi
-              cupiditate.
+              A tudomány már régóta ismeri és alkalmazza az emberi gyógyításban a hangok erejét. Számos vallási szertartás tartalmaz meghatározott énekeket és hangeffektusokat, amelyek célja a közérzet javítása és a test-lelkünk feltöltése. Az emberiség évezredek óta használja a hangok gyógyító hatását, és most már pontosan tudjuk, hogy ezeknek a jelenségeknek mi az alapja. Frekvenciákat pedig létre lehet hozni vagyis lehet generálni hangokkal, frekvenciagenerátorral.
             </p>
             <button className="text-center btn btn-primary m-auto">
               <a href="#">Bővebben</a>

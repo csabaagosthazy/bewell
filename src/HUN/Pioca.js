@@ -26,11 +26,11 @@ function Pioca() {
             <img
               className="m-3 rounded border"
               src="images/sample.jpeg"
-              alt="Leech Therapy"
+              alt="Pioca Therapy"
             />
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 p-3">
-            <div class="container w-75">
+            <div className="container w-75">
               <h5>Pióca terápia</h5>
               <p>
                 A pióca terápia évszázadok óta használt gyógymód, melynek során
@@ -56,15 +56,16 @@ function Pioca() {
         </div>
       </div>
 
-      <div class="container text-center my-4">
+      <div className="container text-center my-4">
         <img
           src="/images/sample.jpeg"
-          class="img-fluid rounded mb-3"
-          alt="Kép leírása"
+          className="img-fluid rounded mb-3"
+          alt="Leech Therapy"
         />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          A pióca terápia során a piócák speciális enzimeket juttatnak a
+          vérbe, melyek segíthetnek csökkenteni a gyulladást és javítani a
+          vérkeringést.
         </p>
       </div>
 
@@ -84,9 +85,9 @@ function Pioca() {
           <div className="col-md-6">
             <div className="p-3  text-center">
               <img
-                src="images/sample.jpeg"
+                src="/images/sample.jpeg"
                 className="rounded"
-                alt="Leech Therapy Process"
+                alt="Pioca Therapy Process"
               />
             </div>
           </div>
@@ -139,31 +140,7 @@ function Pioca() {
             </div>
           </div>
           <div className="col-md-5">
-            <div className="slider m-auto">
-              <Slider {...settings}>
-                <img
-                  src="images/sample.jpeg"
-                  className="rounded"
-                  alt="Leech Therapy Slide"
-                />
-                <img
-                  src="images/sample.jpeg"
-                  className="rounded"
-                  alt="Leech Therapy Slide"
-                />
-                <img
-                  src="images/sample.jpeg"
-                  className="rounded"
-                  alt="Leech Therapy Slide"
-                />
-                <img
-                  src="images/sample.jpeg"
-                  className="rounded"
-                  alt="Leech Therapy Slide"
-                />
-              </Slider>
-              <br />
-            </div>
+            
           </div>
         </div>
       </div>
