@@ -58,8 +58,10 @@ function Home() {
                 Az NLS technológia új korszakot nyit az egészségügyben, kínálva egy hatékony és pontos eszközt a diagnózis és terápia terén. Összehasonlítva a hagyományos képalkotó módszerekkel, az NLS technológia kiemelkedő pontosságot és sokoldalúságot biztosít az emberi test elemzésében.
               </p>
 
-              <button className="text-center btn btn-primary m-3">
-                <a href="#">Bővebben</a>
+              <button class="btn btn-primary m-3">
+                <Link className="nav-link" to="/NLS">
+                  Tovább olvasom
+                </Link>
               </button>
               <br />
               <img src="images/sample.jpeg" className="rounded" alt="" />
@@ -70,8 +72,10 @@ function Home() {
               <p className="m-2">
                 A hirudoterápia hatékony és mellékhatások nélküli módszer különféle betegségek kezelésére, elsősorban érrendszeri problémáknál alkalmazzák. A piócák segítenek enyhíteni a véráramlást, normalizálni a vérnyomást és kezelni a vérrögképződéssel kapcsolatos betegségeket. Emellett hatékonyak az aranyér, ízületi problémák, idegrendszeri betegségek és bőrbetegségek kezelésében is. A piócák segítséget nyújtanak a fertőző betegségek kezelésében és az immunrendszer erősítésében is. A hirudoterápia széles körben alkalmazható és jó eredményeket mutat, valamint kozmetikai célokra is felhasználható.
               </p>
-              <button className="text-center btn btn-primary m-3">
-                <a href="#">Bővebben</a>
+              <button class="btn btn-primary m-3">
+                <Link className="nav-link" to="/Pioca">
+                  Tovább olvasom
+                </Link>
               </button>
               <br />
               <img src="images/sample.jpeg" className="rounded" alt="" />
@@ -82,8 +86,10 @@ function Home() {
               <p className="m-2 text-end">
                 A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül mélyen hatol a szövetekbe, akár 10 cm-es mélységig is, kiválóan alkalmazható a mozgásszervi betegségek terápiájában. Ennek biológiai hatása fájdalomcsillapító, gyulladáscsökkentő és gyorsítja az izmok, inak, ízületek gyógyulását. Nagyobb dózis esetén akár az ízületi porcfelszínek regenerálására is alkalmas.
               </p>
-              <button className="text-center btn btn-primary m-3">
-                <a href="#">Bővebben</a>
+              <button class="btn btn-primary m-3">
+                <Link className="nav-link" to="/Safe">
+                  Tovább olvasom
+                </Link>
               </button>
               <br />
               <img src="images/sample.jpeg" className="rounded" alt="" />
@@ -113,9 +119,11 @@ function Home() {
             <p>
               A tudomány már régóta ismeri és alkalmazza az emberi gyógyításban a hangok erejét. Számos vallási szertartás tartalmaz meghatározott énekeket és hangeffektusokat, amelyek célja a közérzet javítása és a test-lelkünk feltöltése. Az emberiség évezredek óta használja a hangok gyógyító hatását, és most már pontosan tudjuk, hogy ezeknek a jelenségeknek mi az alapja. Frekvenciákat pedig létre lehet hozni vagyis lehet generálni hangokkal, frekvenciagenerátorral.
             </p>
-            <button className="text-center btn btn-primary m-auto">
-              <a href="#">Bővebben</a>
-            </button>
+            <button class="btn btn-primary m-3">
+                <Link className="nav-link" to="/Frekvencia">
+                  Tovább olvasom
+                </Link>
+              </button>
           </div>
         </div>
       </div>
