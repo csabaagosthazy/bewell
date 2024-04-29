@@ -85,3 +85,12 @@ a {
 .kep-egyedi {
   border-radius: 75%;
 }
+
+.zaszlok {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10rem;
+  height: 2.5rem;
+  background-color: black;
+}

@@ -11,7 +11,7 @@ function Frekvencia() {
             <img
               className="m-3 rounded border"
               style={{ width: "20rem" }}
-              src="images/plasma-generator.JPG"
+              src="images/plasma-generator.jpg"
               alt="plasma-generator.JPG"
             />
           </div>
