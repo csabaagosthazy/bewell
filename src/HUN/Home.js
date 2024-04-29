@@ -14,7 +14,7 @@ function Home() {
             <img
               className="m-3 rounded border"
               style={{ width: "20rem" }}
-              src="/images/magamrol.JPG"
+              src="/images/magamrol.jpg"
               alt="magamrol.JPG"
             />
           </div>
