@@ -14,7 +14,7 @@ function NLS() {
               className="m-3 rounded border"
               src="/images/plasma-generator.jpg"
               style={{ width: "20rem" }}
-              alt=""
+              alt="plasma-generator.jpg"
             />
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 p-3">
@@ -70,7 +70,7 @@ function NLS() {
               <img
                 src="/images/bgnd.jpeg"
                 className="card-img-top"
-                alt="Leech Therapy Process"
+                alt="bgnd.jpeg"
               />
             </div>
           </div>

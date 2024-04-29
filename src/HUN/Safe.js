@@ -15,7 +15,7 @@ function Safe() {
               className="m-3 rounded border"
               style={{ width: "20rem" }}
               src="/images/safe-laser.jpg"
-              alt=""
+              alt="safe-laser.jpg"
             />
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 p-3">
@@ -55,7 +55,7 @@ function Safe() {
               <img
                 src="/images/safe-laser2.jpg"
                 className="card-img-top"
-                alt="Leech Therapy Process"
+                alt="safe-laser2.jpg"
               />
             </div>
           </div>

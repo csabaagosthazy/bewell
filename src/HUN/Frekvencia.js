@@ -12,7 +12,7 @@ function Frekvencia() {
               className="m-3 rounded border"
               style={{ width: "20rem" }}
               src="images/plasma-generator.JPG"
-              alt="Leech Therapy"
+              alt="plasma-generator.JPG"
             />
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 p-3">
@@ -51,7 +51,7 @@ function Frekvencia() {
               <img
                 src="images/nls.jpg"
                 className="card-img-top"
-                alt="Leech Therapy Process"
+                alt="nls.jpg"
               />
             </div>
           </div>

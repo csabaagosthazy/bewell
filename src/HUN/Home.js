@@ -3,10 +3,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../App.css";
 import Footer from "./Footer";
-import { BrowserRouter as Link, } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 function Home() {
-
   return (
     <div>
       <div className="background">
@@ -15,12 +14,12 @@ function Home() {
             <img
               className="m-3 rounded border"
               style={{ width: "20rem" }}
-              src="/images/magamrol.jpg"
-              alt=""
+              src="/images/magamrol.JPG"
+              alt="magamrol.JPG"
             />
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 p-3">
-            <div class="container w-75">
+            <div className="container w-75">
               <h5>Magamról</h5>
               <p>
                 Üdvözlöm! Kozma Magdolna vagyok, évtizedek óta az egészséges
@@ -31,7 +30,7 @@ function Home() {
                 ismeretek mélyen gyökereznek bennem, szorosan összefonódtak
                 mindennapi életemmel.
               </p>
-              <button class="btn btn-primary">
+              <button className="btn btn-primary">
                 <Link className="nav-link" to="/Magamrol">
                   Tovább olvasom
                 </Link>
@@ -54,7 +53,7 @@ function Home() {
                 támaszkodik.
               </p>
 
-              <button class="btn btn-primary m-3">
+              <button className="btn btn-primary m-3">
                 <Link className="nav-link" to="/NLS">
                   Tovább olvasom
                 </Link>
@@ -64,7 +63,7 @@ function Home() {
                 src="/images/nls.jpg"
                 style={{ width: "15rem" }}
                 className="rounded"
-                alt=""
+                alt="nls.jpg"
               />
             </div>
             <div className="col-md p-3">
@@ -76,17 +75,17 @@ function Home() {
                 problémáknál alkalmazzák, a nyirok keringés serkentésére, segít
                 felszabadítani a méreganyagokat.
               </p>
-              <button class="btn btn-primary m-3">
+              <button className="btn btn-primary m-3">
                 <Link className="nav-link" to="/Pioca">
                   Tovább olvasom
                 </Link>
               </button>
               <br />
               <img
-                src="images/pioca.jpeg"
+                src="/images/pioca.jpeg"
                 style={{ width: "15rem" }}
                 className="rounded"
-                alt=""
+                alt="pioca.jpeg"
               />
             </div>
             <div className="col-md p-3">
@@ -99,7 +98,7 @@ function Home() {
                 aktiválja az ATP termelődését, mely az energiatermelés alapja a
                 sejtekben.
               </p>
-              <button class="btn btn-primary m-3">
+              <button className="btn btn-primary m-3">
                 <Link className="nav-link" to="/Safe">
                   Tovább olvasom
                 </Link>
@@ -109,7 +108,7 @@ function Home() {
                 style={{ width: "15rem" }}
                 src="/images/safe-laser.jpg"
                 className="rounded"
-                alt=""
+                alt="safe-laser.jpg"
               />
             </div>
           </div>
@@ -120,7 +119,7 @@ function Home() {
         <div className="row">
           <div className="col">
             <h3 className="text-center">Frekvencia terápia</h3>
-            <div class="row">
+            <div className="row">
               <p className="text-start">
                 A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,
                 amelyben a rezgések alkalmazásával kioltják az élősködőket,
@@ -137,9 +136,9 @@ function Home() {
                 src="/images/plasma-generator.jpg"
                 style={{ width: "25rem" }}
                 className="rounded m-auto"
-                alt=""
+                alt="plasma-generator.jpg"
               />
-              <button class="btn btn-primary mt-3">
+              <button className="btn btn-primary mt-3">
                 <Link className="nav-link" to="/Frekvencia">
                   Tovább olvasom
                 </Link>

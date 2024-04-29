@@ -13,7 +13,7 @@ function Pioca() {
             <img
               className="m-3 rounded border"
               src="images/pioca.jpeg"
-              alt="Pioca Therapy"
+              alt="pioca.jpeg"
             />
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 p-3">
@@ -52,7 +52,7 @@ function Pioca() {
               <img
                 src="/images/bgnd.jpeg"
                 className="card-img-top"
-                alt="Leech Therapy Process"
+                alt="bgnd.jpeg"
               />
             </div>
           </div>

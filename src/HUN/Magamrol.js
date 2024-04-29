@@ -13,7 +13,7 @@ function Magamrol() {
               className="m-3 rounded border"
               style={{ width: "20rem" }}
               src="images/magamrol.jpg"
-              alt="Leech Therapy"
+              alt="magamrol.jpg"
             />
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 p-3">
@@ -54,7 +54,7 @@ function Magamrol() {
               <img
                 src="images/bgnd.jpeg"
                 className="card-img-top"
-                alt="Leech Therapy Process"
+                alt="bgnd.jpeg"
               />
             </div>
           </div>
