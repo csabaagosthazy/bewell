@@ -1,20 +1,8 @@
-import { Link } from "react-router-dom";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from "./Footer";
 
 function Magamrol() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    prevArrow: <button className="btn btn-primary slick-prev">Previous</button>,
-    nextArrow: <button className="btn btn-primary slick-next">Next</button>,
-  };
 
   return (
     <div>
@@ -23,7 +11,7 @@ function Magamrol() {
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              style={{width: "20rem"}}
+              style={{ width: "20rem" }}
               src="images/magamrol.jpg"
               alt="Leech Therapy"
             />
@@ -76,27 +64,7 @@ function Magamrol() {
       {/* További tartalom Lorem Ipsummal */}
       {/* ... */}
 
-      <footer className="footer bg-dark text-light py-4">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <h5>Rólunk</h5>
-              <p>
-                A hagyomány és innováció találkozása: szakértőink a legmodernebb
-                technikákat alkalmazzák a természetes gyógyítás szolgálatában.
-              </p>
-            </div>
-            <div className="col-md-6">
-              <h5>Kapcsolat</h5>
-              <address>
-                <strong>Telefon:</strong> 123-456-7890
-                <br />
-                <strong>Email:</strong> info@piocaterapia.com
-              </address>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

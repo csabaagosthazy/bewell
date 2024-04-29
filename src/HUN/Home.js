@@ -1,22 +1,11 @@
 import React from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../App.css";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import Footer from "./Footer";
+import { BrowserRouter as Link, } from "react-router-dom";
 
 function Home() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    prevArrow: <button className="btn btn-primary slick-prev">Previous</button>,
-    nextArrow: <button className="btn btn-primary slick-next">Next</button>,
-  };
 
   return (
     <div>
@@ -159,26 +148,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <footer className="footer bg-dark text-light py-4 mt-4">
-        <div className="container">
-          <div className="row">
-            <div className="col-6">
-              <h5>Magamról</h5>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-              </p>
-            </div>
-            <div className="col-6">
-              <h5>Contact</h5>
-              <address>
-                <p>Phone: 123-456-7890</p>
-                <p>Email: info@example.com</p>
-              </address>
-            </div>
-          </div>
-        </div>
-      </footer>
+
+      <Footer />
+
     </div>
   );
 }

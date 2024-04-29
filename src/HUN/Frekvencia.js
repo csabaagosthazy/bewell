@@ -1,21 +1,8 @@
-import { Link } from "react-router-dom";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Footer from "./Footer";
 
 function Frekvencia() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    prevArrow: <button className="btn btn-primary slick-prev">Previous</button>,
-    nextArrow: <button className="btn btn-primary slick-next">Next</button>,
-  };
-
   return (
     <div>
       <div className="background">
@@ -23,7 +10,7 @@ function Frekvencia() {
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              style={{width: "20rem"}}
+              style={{ width: "20rem" }}
               src="images/plasma-generator.JPG"
               alt="Leech Therapy"
             />
@@ -32,7 +19,10 @@ function Frekvencia() {
             <div class="container w-75">
               <h5>Frekvencia terápia</h5>
               <p>
-              A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer, amelyben a rezgések alkalmazásával kioltják az élősködőket, kórokozókat, különböző mikroorganizmusokat, miközben harmonizálják és támogatják a szervezetet.
+                A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,
+                amelyben a rezgések alkalmazásával kioltják az élősködőket,
+                kórokozókat, különböző mikroorganizmusokat, miközben
+                harmonizálják és támogatják a szervezetet.
               </p>
             </div>
           </div>
@@ -45,7 +35,13 @@ function Frekvencia() {
             <div className="card border-0 shadow">
               <div className="card-body">
                 <p className="card-text">
-                A kezelés során a gép azonosítja a betegségeket okozó rezgéseket, majd ezeket a sajátos frekvenciákat használja föl a kórokozók kioltására. Ezek az irányított rezgések lengésbe hozzák a mikroorganizmus sejtfalát, membránját, azok nem bírják elviselni a növekvő lengést és egy idő után megrepednek. Ezzel a mikroorganizmus elpusztul, azaz deaktiválódik!
+                  A kezelés során a gép azonosítja a betegségeket okozó
+                  rezgéseket, majd ezeket a sajátos frekvenciákat használja föl
+                  a kórokozók kioltására. Ezek az irányított rezgések lengésbe
+                  hozzák a mikroorganizmus sejtfalát, membránját, azok nem
+                  bírják elviselni a növekvő lengést és egy idő után
+                  megrepednek. Ezzel a mikroorganizmus elpusztul, azaz
+                  deaktiválódik!
                 </p>
               </div>
             </div>
@@ -146,27 +142,7 @@ function Frekvencia() {
         </div>
       </div> */}
 
-      <footer className="footer bg-dark text-light py-4">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-6">
-              <h5>Rólunk</h5>
-              <p>
-                A hagyomány és innováció találkozása: szakértőink a legmodernebb
-                technikákat alkalmazzák a természetes gyógyítás szolgálatában.
-              </p>
-            </div>
-            <div className="col-md-6">
-              <h5>Kapcsolat</h5>
-              <address>
-                <strong>Telefon:</strong> 123-456-7890
-                <br />
-                <strong>Email:</strong> info@piocaterapia.com
-              </address>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -1,23 +1,10 @@
 import React from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../App.css";
-import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
+import Footer from "./Footer";
 
 function NLS() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    prevArrow: <button className="btn btn-primary slick-prev">Previous</button>,
-    nextArrow: <button className="btn btn-primary slick-next">Next</button>,
-  };
-
   return (
     <div>
       <div className="background">
@@ -206,28 +193,7 @@ function NLS() {
         </div>
       </div> */}
 
-      <footer className="footer bg-dark text-light py-4 mt-4">
-        <div className="container">
-          <div className="row">
-            <div className="col-6">
-              <h5>Rólunk</h5>
-              <p>
-                Az NLS Terápia csapatával együtt dolgozunk azon, hogy az
-                egészség és a harmonikus élet mindenki számára elérhetővé
-                váljon. Célunk, hogy segítsünk az embereknek megtalálni az
-                egyensúlyt testük, lelkük és környezetük között.
-              </p>
-            </div>
-            <div className="col-6">
-              <h5>Kapcsolat</h5>
-              <address>
-                <p>Telefon: 123-456-7890</p>
-                <p>Email: info@nlsterapia.com</p>
-              </address>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
