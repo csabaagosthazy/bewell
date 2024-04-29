@@ -29,7 +29,11 @@ function App() {
             data-bs-theme="dark"
           >
             <div className="container-fluid">
-              <Link className="navbar-brand" to="/" onClick={() => setCollapsed(true)}>
+              <Link
+                className="navbar-brand"
+                to="/"
+                onClick={() => setCollapsed(true)}
+              >
                 Főoldal
               </Link>
               <button
@@ -41,7 +45,9 @@ function App() {
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div
-                className={`collapse navbar-collapse ${collapsed ? '' : 'show'}`}
+                className={`collapse navbar-collapse ${
+                  collapsed ? "" : "show"
+                }`}
               >
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
@@ -50,22 +56,38 @@ function App() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Pioca" onClick={toggleNavbar}>
+                    <Link
+                      className="nav-link"
+                      to="/Pioca"
+                      onClick={toggleNavbar}
+                    >
                       Pióca terápia
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Safe" onClick={toggleNavbar}>
+                    <Link
+                      className="nav-link"
+                      to="/Safe"
+                      onClick={toggleNavbar}
+                    >
                       Safe laser
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Frekvencia" onClick={toggleNavbar}>
+                    <Link
+                      className="nav-link"
+                      to="/Frekvencia"
+                      onClick={toggleNavbar}
+                    >
                       Frekvencia terápia
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/Magamrol" onClick={toggleNavbar}>
+                    <Link
+                      className="nav-link"
+                      to="/Magamrol"
+                      onClick={toggleNavbar}
+                    >
                       Magamról
                     </Link>
                   </li>
@@ -88,23 +110,20 @@ function App() {
 
         <div className="zaszlok text-center">
           <img
-              className="m-1 rounded border"
-              style={{width: "2.5rem"}}
-              src="/images/hun.png"
-              alt="magamrol.JPG"
-            />
-            <img
-              className="m-1 rounded border"
-              style={{width: "2.5rem"}}
-              src="/images/eng.png"
-              alt="magamrol.JPG"
-            />
-            <img
-              className="m-1 rounded border"
-              style={{width: "2.5rem"}}
-              src="/images/aus.png"
-              alt="magamrol.JPG"
-            />
+            className="m-1 rounded border zaszlo-img"
+            src="/images/hun.png"
+            alt="magamrol.JPG"
+          />
+          <img
+            className="m-1 rounded border zaszlo-img"
+            src="/images/eng.png"
+            alt="magamrol.JPG"
+          />
+          <img
+            className="m-1 rounded border zaszlo-img"
+            src="/images/aus.png"
+            alt="magamrol.JPG"
+          />
         </div>
       </div>
     </div>

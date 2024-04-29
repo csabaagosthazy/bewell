@@ -92,5 +92,15 @@ a {
   right: 0;
   width: 10rem;
   height: 2.5rem;
+  z-index: 2;
   background-color: black;
+}
+
+.zaszlo-img {
+  width: 2.5rem;
+  height: 2rem;
+}
+
+.egyedi-asd {
+  position: relative;
 }
