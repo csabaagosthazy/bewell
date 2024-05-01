@@ -8,12 +8,12 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 function Home() {
   return (
     <div>
-      <div className="background">
+      <div className="background-magamrol">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              style={{ width: "20rem" }}
+              style={{ width: "15rem" }}
               src="/images/magamrol.jpg"
               alt="magamrol.JPG"
             />
@@ -30,11 +30,6 @@ function Home() {
                 ismeretek mélyen gyökereznek bennem, szorosan összefonódtak
                 mindennapi életemmel.
               </p>
-              <button className="btn btn-primary">
-                <Link className="nav-link" to="/Magamrol">
-                  Tovább olvasom
-                </Link>
-              </button>
             </div>
           </div>
         </div>
