@@ -8,7 +8,7 @@ function Safe() {
   return (
     <div>
       {/* Background Section */}
-      <div className="background">
+      <div className="background-safe-laser">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img

@@ -5,7 +5,7 @@ import Footer from "./Footer";
 function Frekvencia() {
   return (
     <div>
-      <div className="background">
+      <div className="background-frekvencia">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img

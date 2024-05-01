@@ -47,6 +47,167 @@ a {
   text-decoration: none;
 }
 
+.background-nls {
+  display: flex;
+  align-items: center; /* Tartalom középre igazítása függőlegesen */
+  justify-content: center; /* Tartalom középre igazítása vízszintesen */
+  min-height: 92vh; /* Minimum magasság beállítása a teljes viewport magasságához */
+}
+
+.background-nls::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('./img/bgnd.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  background-color: rgba(37, 37, 255, 0.8);
+  filter: brightness(0.5); /* Fekete filter alkalmazása */
+  z-index: -1; /* Háttér mögé helyezés */
+}
+
+.background-nls h5,
+.background-nls p {
+  position: relative; /* Szövegek relatív pozícióba helyezése */
+  z-index: 1; /* Szövegek előtérbe helyezése */
+  color: white;
+}
+
+
+/* SAFE LASER */
+.background-safe-laser {
+  display: flex;
+  align-items: center; /* Tartalom középre igazítása függőlegesen */
+  justify-content: center; /* Tartalom középre igazítása vízszintesen */
+  min-height: 92vh; /* Minimum magasság beállítása a teljes viewport magasságához */
+}
+
+.background-safe-laser::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('./img/bgnd.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  filter: brightness(0.5); */
+  background-color: rgba(39, 144, 53, 0.8);
+  z-index: -1;
+}
+
+.background-safe-laser h5,
+.background-safe-laser p {
+  position: relative; /* Szövegek relatív pozícióba helyezése */
+  z-index: 1; /* Szövegek előtérbe helyezése */
+  color: white;
+}
+
+
+/* BACKGROUND FREKVENCIA */
+.background-frekvencia {
+  display: flex;
+  align-items: center; /* Tartalom középre igazítása függőlegesen */
+  justify-content: center; /* Tartalom középre igazítása vízszintesen */
+  min-height: 93.5vh; /* Minimum magasság beállítása a teljes viewport magasságához */
+}
+
+.background-frekvencia::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('./img/bgnd.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  filter: brightness(0.5);*/
+  background-color: rgba(219, 144, 45, 0.856);
+  z-index: -1;
+}
+
+.background-frekvencia h5,
+.background-frekvencia p {
+  position: relative; /* Szövegek relatív pozícióba helyezése */
+  z-index: 1; /* Szövegek előtérbe helyezése */
+  color: white;
+}
+
+
+/* BACKGROUND PIOCA */
+.background-pioca {
+  display: flex;
+  align-items: center; /* Tartalom középre igazítása függőlegesen */
+  justify-content: center; /* Tartalom középre igazítása vízszintesen */
+  min-height: 92vh; /* Minimum magasság beállítása a teljes viewport magasságához */
+}
+
+.background-pioca::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('./img/bgnd.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5); */
+  background-color: rgba(225, 62, 62, 0.8);
+  z-index: -1; 
+}
+
+.background-pioca h5,
+.background-pioca p {
+  position: relative; /* Szövegek relatív pozícióba helyezése */
+  z-index: 1; /* Szövegek előtérbe helyezése */
+  color: white;
+}
+
+
+/* MAGAMROL */
+.background-magamrol {
+  display: flex;
+  align-items: center; /* Tartalom középre igazítása függőlegesen */
+  justify-content: center; /* Tartalom középre igazítása vízszintesen */
+  min-height: 92vh; /* Minimum magasság beállítása a teljes viewport magasságához */
+}
+
+.background-magamrol::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('./img/bgnd.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  filter: brightness(0.5); */ 
+  background-color: rgba(186, 186, 102, 0.8);
+  z-index: -1; 
+}
+
+.background-magamrol h5,
+.background-magamrol p {
+  position: relative; /* Szövegek relatív pozícióba helyezése */
+  z-index: 1; /* Szövegek előtérbe helyezése */
+  color: white;
+}
+
+
+
+/* BACKGROUND */
 .background {
   display: flex;
   align-items: center; /* Tartalom középre igazítása függőlegesen */
@@ -61,10 +222,11 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('./img/bgnd.jpeg');
+  /* background-image: url('./img/bgnd.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  background-color: rgba(37, 37, 255, 0.8);
   filter: brightness(0.5); /* Fekete filter alkalmazása */
   z-index: -1; /* Háttér mögé helyezés */
 }
@@ -90,7 +252,7 @@ a {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 10rem;
+  width: 7rem;
   height: 2.5rem;
   z-index: 2;
   background-color: black;
@@ -103,4 +265,9 @@ a {
 
 .egyedi-asd {
   position: relative;
+}
+
+.link {
+  text-decoration: underline;
+  color: rgb(94, 94, 204);
 }

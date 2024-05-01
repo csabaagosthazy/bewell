@@ -12,6 +12,7 @@ import Safe from "./HUN/Safe.js";
 import Galery from "./HUN/Galery.js";
 import Termekek from "./HUN/Termekek.js";
 import Home from "./HUN/Home.js";
+import Impresszum from "./HUN/Impresszum.js";
 
 function App() {
   const [collapsed, setCollapsed] = useState(true);
@@ -105,6 +106,7 @@ function App() {
             <Route path="/Magamrol" element={<Magamrol />} />
             <Route path="/Galery" element={<Galery />} />
             <Route path="/Termekek" element={<Termekek />} />
+            <Route path="/Impresszum" element={<Impresszum />} />
           </Routes>
         </Router>
 
@@ -117,11 +119,6 @@ function App() {
           <img
             className="m-1 rounded border zaszlo-img"
             src="/images/eng.png"
-            alt="magamrol.JPG"
-          />
-          <img
-            className="m-1 rounded border zaszlo-img"
-            src="/images/aus.png"
             alt="magamrol.JPG"
           />
         </div>

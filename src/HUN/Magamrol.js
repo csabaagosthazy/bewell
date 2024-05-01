@@ -6,7 +6,7 @@ function Magamrol() {
 
   return (
     <div>
-      <div className="background">
+      <div className="background-magamrol">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
@@ -18,7 +18,7 @@ function Magamrol() {
           </div>
           <div className="col-md-6 col-lg-6 col-xl-6 p-3">
             <div class="container w-75">
-              <h5>Magamről</h5>
+              <h5>Magamról</h5>
               <p>
                 Üdvözlöm! Kozma Magdolna vagyok, évtizedek óta az egészséges
                 életmód híve, mind saját magam, mind pedig a szeretteim körében.

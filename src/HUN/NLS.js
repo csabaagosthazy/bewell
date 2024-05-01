@@ -3,16 +3,28 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../App.css";
 import Footer from "./Footer";
+import Slider from "react-slick";
 
 function NLS() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: <button className="btn btn-primary slick-prev">Previous</button>,
+    nextArrow: <button className="btn btn-primary slick-next">Next</button>,
+  };
   return (
     <div>
-      <div className="background">
+      <div className="background-nls">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              src="/images/plasma-generator.jpg"
+              src="/images/nls.jpg"
               style={{ width: "20rem" }}
               alt="plasma-generator.jpg"
             />
@@ -67,15 +79,21 @@ function NLS() {
           </div>
           <div className="col-md-6">
             <div className="card border-0 shadow">
-              <img
-                src="/images/bgnd.jpeg"
-                className="card-img-top"
-                alt="bgnd.jpeg"
-              />
+            <div className="slider mt-4 m-auto">
+              <Slider {...settings}>
+                <img src="images/plasma-generator.jpg" className="rounded" alt="plasma-generator" />
+                <img src="images/baba.jpg" className="rounded" alt="baba" />
+                <img src="images/udvozlunk.jpg" className="rounded" alt="udvozlunk" />
+                <img src="images/bgnd.jpeg" className="rounded" alt="background" />
+              </Slider>
+              <br />
+            </div>
             </div>
           </div>
         </div>
       </div>
+
+      
 
       {/* <div className="container mt-5">
         <div className="row">
@@ -143,7 +161,7 @@ function NLS() {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
 
       <div className="w-75 m-auto mt-4">
         <div className="row">
@@ -177,21 +195,12 @@ function NLS() {
             </div>
           </div>
           <div className="col-md-5">
-            <div className="slider m-auto">
-              <Slider {...settings}>
-                <img src="images/sample.jpeg" className="rounded" alt="" />
-                <img src="images/sample.jpeg" className="rounded" alt="" />
-                <img src="images/sample.jpeg" className="rounded" alt="" />
-                <img src="images/sample.jpeg" className="rounded" alt="" />
-                <img src="images/sample.jpeg" className="rounded" alt="" />
-                <img src="images/sample.jpeg" className="rounded" alt="" />
-                <img src="images/sample.jpeg" className="rounded" alt="" />
-              </Slider>
-              <br />
-            </div>
+            
           </div>
         </div>
-      </div> */}
+      </div> 
+
+      */}
 
       <Footer />
     </div>

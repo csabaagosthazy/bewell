@@ -7,7 +7,7 @@ import Footer from "./Footer";
 function Pioca() {
   return (
     <div>
-      <div className="background">
+      <div className="background-pioca">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
