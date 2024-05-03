@@ -34,18 +34,6 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="zaszlok text-center">
-          <img
-            className="m-1 rounded border zaszlo-img"
-            src="/images/hun.png"
-            alt="magamrol.JPG"
-          />
-          <img
-            className="m-1 rounded border zaszlo-img"
-            src="/images/eng.png"
-            alt="magamrol.JPG"
-          />
-        </div>
       </div>
 
       <div>
