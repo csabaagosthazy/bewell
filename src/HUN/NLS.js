@@ -25,7 +25,7 @@ function NLS() {
             <img
               className="m-3 rounded border"
               src="/images/nls.jpg"
-              style={{ width: "20rem" }}
+              style={{ width: "75%" }}
               alt="plasma-generator.jpg"
             />
           </div>
@@ -38,8 +38,21 @@ function NLS() {
                 épít, miközben a modern tudományos kutatások eredményeire is
                 támaszkodik.
               </p>
+              <br />
             </div>
           </div>
+        </div>
+        <div className="zaszlok text-center">
+          <img
+            className="m-1 rounded border zaszlo-img"
+            src="/images/hun.png"
+            alt="magamrol.JPG"
+          />
+          <img
+            className="m-1 rounded border zaszlo-img"
+            src="/images/eng.png"
+            alt="magamrol.JPG"
+          />
         </div>
       </div>
 

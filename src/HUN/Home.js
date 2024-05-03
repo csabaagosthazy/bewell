@@ -13,7 +13,7 @@ function Home() {
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              style={{ width: "15rem" }}
+              style={{ width: "75%" }}
               src="/images/magamrol.jpg"
               alt="magamrol.JPG"
             />
@@ -30,8 +30,21 @@ function Home() {
                 ismeretek mélyen gyökereznek bennem, szorosan összefonódtak
                 mindennapi életemmel.
               </p>
+              <br />
             </div>
           </div>
+        </div>
+        <div className="zaszlok text-center">
+          <img
+            className="m-1 rounded border zaszlo-img"
+            src="/images/hun.png"
+            alt="magamrol.JPG"
+          />
+          <img
+            className="m-1 rounded border zaszlo-img"
+            src="/images/eng.png"
+            alt="magamrol.JPG"
+          />
         </div>
       </div>
 

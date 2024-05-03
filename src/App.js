@@ -13,6 +13,7 @@ import Galery from "./HUN/Galery.js";
 import Termekek from "./HUN/Termekek.js";
 import Home from "./HUN/Home.js";
 import Impresszum from "./HUN/Impresszum.js";
+import Arak from "./HUN/Arak.js";
 
 function App() {
   const [collapsed, setCollapsed] = useState(true);
@@ -92,6 +93,15 @@ function App() {
                       Magamról
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/Arak"
+                      onClick={toggleNavbar}
+                    >
+                      Árak
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -107,21 +117,9 @@ function App() {
             <Route path="/Galery" element={<Galery />} />
             <Route path="/Termekek" element={<Termekek />} />
             <Route path="/Impresszum" element={<Impresszum />} />
+            <Route path="/Arak" element={<Arak />} />
           </Routes>
         </Router>
-
-        <div className="zaszlok text-center">
-          <img
-            className="m-1 rounded border zaszlo-img"
-            src="/images/hun.png"
-            alt="magamrol.JPG"
-          />
-          <img
-            className="m-1 rounded border zaszlo-img"
-            src="/images/eng.png"
-            alt="magamrol.JPG"
-          />
-        </div>
       </div>
     </div>
   );

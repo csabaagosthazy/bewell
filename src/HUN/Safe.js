@@ -3,8 +3,20 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../App.css";
 import Footer from "./Footer";
+import Slider from "react-slick";
 
 function Safe() {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    prevArrow: <button className="btn btn-primary slick-prev">Previous</button>,
+    nextArrow: <button className="btn btn-primary slick-next">Next</button>,
+  };
   return (
     <div>
       {/* Background Section */}
@@ -13,7 +25,7 @@ function Safe() {
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              style={{ width: "20rem" }}
+              style={{ width: "75%" }}
               src="/images/safe-laser.jpg"
               alt="safe-laser.jpg"
             />
@@ -28,8 +40,21 @@ function Safe() {
                 aktiválja az ATP termelődését, mely az energiatermelés alapja a
                 sejtekben.
               </p>
+              <br />
             </div>
           </div>
+        </div>
+        <div className="zaszlok text-center">
+          <img
+            className="m-1 rounded border zaszlo-img"
+            src="/images/hun.png"
+            alt="magamrol.JPG"
+          />
+          <img
+            className="m-1 rounded border zaszlo-img"
+            src="/images/eng.png"
+            alt="magamrol.JPG"
+          />
         </div>
       </div>
 
@@ -60,6 +85,17 @@ function Safe() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div class="container w-50">
+        <Slider {...settings}>
+          <img src="images/plasma-generator.jpg" className="rounded" alt="plasma-generator" />
+          <img src="images/baba.jpg" className="rounded" alt="baba" />
+          <img src="images/udvozlunk.jpg" className="rounded" alt="udvozlunk" />
+          <img src="images/nls_bacsi.jpg" className="rounded" alt="background" />
+          <img src="images/piroca_magide.jpg" className="rounded" alt="background" />
+          <img src="images/baba+magdi2.jpg" className="rounded" alt="background" />
+        </Slider>
       </div>
 
       {/* <div className="container mt-4">
