@@ -85,7 +85,7 @@ function Pioca() {
         </div>
       </div>
 
-      <div class="container w-50">
+      <div class="container w-50 d-none d-md-block">
         <Slider {...settings}>
           <img src="images/plasma-generator.jpg" className="rounded" alt="plasma-generator" />
           <img src="images/baba.jpg" className="rounded" alt="baba" />

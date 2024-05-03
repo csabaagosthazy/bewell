@@ -25,18 +25,6 @@ function Footer() {
           <p className="text-center">© 2024 plazma.ujjweb.hu. Minden jog fenntartva.</p>
         </div>
       </div>
-      <div className="zaszlok text-center">
-        <img
-          className="m-1 rounded border zaszlo-img"
-          src="/images/hun.png"
-          alt="magamrol.JPG"
-        />
-        <img
-          className="m-1 rounded border zaszlo-img"
-          src="/images/eng.png"
-          alt="magamrol.JPG"
-        />
-      </div>
     </footer>
   );
 }

@@ -38,6 +38,18 @@ function App() {
               >
                 Főoldal
               </Link>
+              <div className="zaszlok text-center">
+                  <img
+                    className="m-1 rounded border zaszlo-img"
+                    src="/images/hun.png"
+                    alt="hun.JPG"
+                  />
+                  <img
+                    className="m-1 rounded border zaszlo-img"
+                    src="/images/eng.png"
+                    alt="eng.JPG"
+                  />
+                </div>
               <button
                 className="navbar-toggler"
                 type="button"

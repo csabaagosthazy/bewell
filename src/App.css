@@ -230,13 +230,9 @@ a {
 }
 
 .zaszlok {
-  position: absolute;
-  bottom: 0;
-  right: 0;
   width: 7rem;
   height: 2.5rem;
   z-index: 2;
-  background-color: black;
 }
 
 .zaszlo-img {
