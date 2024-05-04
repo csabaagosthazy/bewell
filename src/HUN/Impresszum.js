@@ -19,7 +19,7 @@ function Impresszum() {
                   <span
                     style={{ textDecoration: "underline", fontWeight: "bold" }}
                   >
-                    <Link to="/Magamrol"  style={{color: "black",}}>https://legyjolkozpont.hu</Link>
+                    <Link to="/"  style={{color: "black",}}>https://legyjolkozpont.hu</Link>
                   </span>{" "}
                   felelős üzemeltetője Kozma Magdolna 8200 Balatonalmádi.
                 </li>
@@ -28,7 +28,7 @@ function Impresszum() {
                   <span
                     style={{ color: "black", textDecoration: "underline", fontWeight: "bold" }}
                   >
-                    <Link to="/Magamrol" style={{color: "black",}}>https://legyjolkozpont.hu</Link>
+                    <Link to="/" style={{color: "black",}}>https://legyjolkozpont.hu</Link>
                   </span>{" "}
                   tisztán magánjellegű tájékoztatás. Nem "sajtó- vagy
                   médiaszolgáltató".
