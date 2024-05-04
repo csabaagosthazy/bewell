@@ -33,9 +33,10 @@ function Arak() {
                                     épít, miközben a modern tudományos kutatások eredményeire is
                                     támaszkodik.
                                 </p> */}
+                                <p className="text-center">60 és 90 perc</p>
                                 <div className="text-center">
                                     <button className="btn btn-primary m-auto text-center">
-                                        10.000 Ft / óra
+                                        15.000 Ft
                                     </button>
                                 </div>
                             </div>
@@ -49,7 +50,7 @@ function Arak() {
                                 alt="plasma-generator"
                             /> */}
                             <div className="card-body">
-                                <h5 className="card-title">Frekvencia generátor</h5>
+                                <h5 className="card-title">Frekvencia terápia</h5>
                                 {/* <p className="card-text">
                                     A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,
                                     amelyben a rezgések alkalmazásával kioltják az élősködőket,
@@ -57,8 +58,9 @@ function Arak() {
                                     harmonizálják és támogatják a szervezetet.
                                 </p> */}
                                 <div className="text-center">
+                                    <p className="text-center">60 perc</p>
                                     <button className="btn btn-primary m-auto text-center">
-                                        10.000 Ft / óra
+                                        10.000 Ft
                                     </button>
                                 </div>
                             </div>
@@ -75,7 +77,7 @@ function Arak() {
                                 alt="safe-laser"
                             /> */}
                             <div className="card-body">
-                                <h5 className="card-title">Safe laser</h5>
+                                <h5 className="card-title">Safe laser kezelés</h5>
                                 {/* <p className="card-text">
                                     A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül
                                     mélyen hatol a szövetekbe, akár 10 cm-es mélységig is,
@@ -83,9 +85,10 @@ function Arak() {
                                     A lézerfény aktiválja az ATP termelődését, mely az
                                     energiatermelés alapja a sejtekben.
                                 </p> */}
+                                <p className="text-center">40 perc</p>
                                 <div className="text-center">
                                     <button className="btn btn-primary m-auto text-center">
-                                        10.000 Ft / óra
+                                        6.000 Ft
                                     </button>
                                 </div>
                             </div>
@@ -99,16 +102,23 @@ function Arak() {
                                 alt="pioca-terapia"
                             /> */}
                             <div className="card-body">
-                                <h5 className="card-title">Pióca terápia</h5>
+                                <h5 className="card-title">Pióca kezelés</h5>
                                 {/* <p className="card-text">
                                     A hidroterápia hatékony és mellékhatások nélküli módszer
                                     különféle betegségek kezelésére, elsősorban érrendszeri
                                     problémáknál alkalmazzák, a nyirok keringés serkentésére,
                                     segít felszabadítani a méreganyagokat.
                                 </p> */}
+                                <p className="text-center">30 és 90 perc között</p>
                                 <div className="text-center">
                                     <button className="btn btn-primary m-auto text-center">
-                                        10.000 Ft / óra
+                                        12.000 Ft
+                                    </button>
+                                </div>
+                                <p className="text-center">Az alapkezelésben 2db pióca van, amennyiben szükség lenne további piócára</p>
+                                <div className="text-center">
+                                    <button className="btn btn-primary m-auto text-center">
+                                        1.500 Ft / db
                                     </button>
                                 </div>
                             </div>

@@ -28,7 +28,7 @@ function Frekvencia() {
             />
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
-            <div class="card border-0 shadow p-2 m-auto w-75">
+            <div class="card border-0 shadow p-2 m-auto">
               <h5>Frekvencia terápia</h5>
               <p>
                 A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,

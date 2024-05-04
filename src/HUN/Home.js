@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 function Home() {
   return (
-    <div>
+    <div className="teljes">
       {/* <div className="background-magamrol">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
@@ -36,20 +36,22 @@ function Home() {
         </div>
       </div> */}
 
-      <div class="container home-egyedi">
+      <div class="container home-egyedi text-center">
         <img
           src="/images/elokep.jpg"
-          className="mt-4"
+          className="mt-4 m-auto rounded img-fluid"
           alt=""
-          style={{ width: "100%" }}
+          style={{ maxWidth: "75%" }}
         />
-
         <blockquote class="blockquote mt-3">
-          <p class="mb-0 text-center">
+          <p class="mb-0 text-center szoveg">
             Üdvözlöm a légyjólközpont oldalán!
           </p>
         </blockquote>
       </div>
+
+      <div className="kitolto  d-sm-block"></div>
+      <div className="kitolto  d-sm-block"></div>
 
       {/* <div>
         <div className="w-100 p-3">

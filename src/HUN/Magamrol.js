@@ -17,7 +17,7 @@ function Magamrol() {
             />
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
-            <div class="w-75 card border-0 shadow p-2 m-auto">
+            <div class="card border-0 shadow p-2 m-auto">
               <h5>Magamról</h5>
               <p>
                 Üdvözlöm! Kozma Magdolna vagyok, évtizedek óta az egészséges

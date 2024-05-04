@@ -275,3 +275,10 @@ a {
 .teljes {
   background-color: #F5F5DC;
 }
+
+.szoveg {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 50px;
+}
