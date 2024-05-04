@@ -3,32 +3,32 @@ import { BrowserRouter as Router, Route, Link, Routes } from "react-router-dom";
 
 function Impresszum() {
   return (
-    <div>
+    <div className="teljes">
       <div className="background-magamrol">
         <div className="row">
-          <div className="col-md-6 col-lg-6 col-xl-6 p-3">
-            <div class="container w-75">
+          <div className="col-md-12 col-lg-12 col-xl-12 p-3">
+            <div class="w-100 card border-0 shadow p-2 m-auto">
               <h5>Impresszum és jogi vonatkozások</h5>
               <p>
                 Örülök, hogy meglátogat. Kérem, vegye figyelembe a következőket.
               </p>
 
               <ul>
-                <li style={{ color: "white" }}>
+                <li>
                   A{" "}
                   <span
                     style={{ textDecoration: "underline", fontWeight: "bold" }}
                   >
-                    <Link to="/Magamrol">https://legyjol.hu</Link>
+                    <Link to="/Magamrol"  style={{color: "black",}}>https://legyjolkozpont.hu</Link>
                   </span>{" "}
                   felelős üzemeltetője Kozma Magdolna 8200 Balatonalmádi.
                 </li>
-                <li style={{ color: "white" }}>
+                <li>
                   A{" "}
                   <span
-                    style={{ textDecoration: "underline", fontWeight: "bold" }}
+                    style={{ color: "black", textDecoration: "underline", fontWeight: "bold" }}
                   >
-                    <Link to="/Magamrol">https://legyjol.hu</Link>
+                    <Link to="/Magamrol" style={{color: "black",}}>https://legyjolkozpont.hu</Link>
                   </span>{" "}
                   tisztán magánjellegű tájékoztatás. Nem "sajtó- vagy
                   médiaszolgáltató".
@@ -41,7 +41,7 @@ function Impresszum() {
 
       <div className="container my-5">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 mt-3">
             <div className="card border-0 shadow">
               <div className="card-body">
                 <h3 className="text-center">Szerzői jog © Copyright </h3>
@@ -72,7 +72,7 @@ function Impresszum() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-3">
             <div className="card border-0 shadow">
               <img
                 src="images/bgnd.jpeg"

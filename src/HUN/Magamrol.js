@@ -5,7 +5,7 @@ import Footer from "./Footer";
 function Magamrol() {
 
   return (
-    <div>
+    <div className="teljes">
       <div className="background-magamrol">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
@@ -16,8 +16,8 @@ function Magamrol() {
               alt="magamrol.jpg"
             />
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-6 p-3">
-            <div class="container w-75">
+          <div className="col-md-4 col-lg-4 col-xl-4 p-3">
+            <div class="w-75 card border-0 shadow p-2 m-auto">
               <h5>Magamról</h5>
               <p>
                 Üdvözlöm! Kozma Magdolna vagyok, évtizedek óta az egészséges
@@ -36,7 +36,7 @@ function Magamrol() {
 
       <div className="container my-5">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 mt-3">
             <div className="card border-0 shadow">
               <div className="card-body">
                 <p className="card-text">
@@ -50,10 +50,10 @@ function Magamrol() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-3">
             <div className="card border-0 shadow">
               <img
-                src="images/bgnd.jpeg"
+                src="images/udvozlunk.jpg"
                 className="card-img-top"
                 alt="bgnd.jpeg"
               />

@@ -18,19 +18,19 @@ function NLS() {
     nextArrow: <button className="btn btn-primary slick-next">Next</button>,
   };
   return (
-    <div>
+    <div className="teljes">
       <div className="background-nls">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              src="/images/nls.jpg"
+              src="/images/baba.jpg"
               style={{ width: "75%" }}
-              alt="plasma-generator.jpg"
+              alt="baba.jpg"
             />
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-6 p-3">
-            <div class="container w-75">
+          <div className="col-md-4 col-lg-4 col-xl-4 p-3">
+            <div class="card border-0 shadow p-2 m-auto">
               <h5>NLS Diagnosztika</h5>
               <p>
                 E technológia átfogó elemzést tesz lehetővé az emberi test
@@ -44,9 +44,9 @@ function NLS() {
         </div>
       </div>
 
-      <div className="container my-5">
+      <div className="container-beige container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2">
             <div className="card border-0 shadow">
               <div className="card-body">
                 <h5 className="card-title text-center">Magába foglalja:</h5>
@@ -78,14 +78,14 @@ function NLS() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-2">
             <div className="card border-0 shadow">
             <div className="slider mt-4 m-auto">
               <Slider {...settings}>
-                <img src="images/plasma-generator.jpg" className="rounded" alt="plasma-generator" />
                 <img src="images/baba.jpg" className="rounded" alt="baba" />
-                <img src="images/udvozlunk.jpg" className="rounded" alt="udvozlunk" />
-                <img src="images/bgnd.jpeg" className="rounded" alt="background" />
+                <img src="images/baba+magdi2.jpg" className="rounded" alt="baba+magdi" />
+                <img src="images/nls_bacsi.jpg" className="rounded" alt="nls_bacsi" />
+                <img src="images/baba+magdi.jpg" className="rounded" alt="baba+magdi" />
               </Slider>
               <br />
             </div>

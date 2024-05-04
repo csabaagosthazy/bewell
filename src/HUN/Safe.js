@@ -18,20 +18,20 @@ function Safe() {
     nextArrow: <button className="btn btn-primary slick-next">Next</button>,
   };
   return (
-    <div>
+    <div className="teljes">
       {/* Background Section */}
       <div className="background-safe-laser">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
-              style={{ width: "75%" }}
+              style={{ width: "50%" }}
               src="/images/safe-laser.jpg"
               alt="safe-laser.jpg"
             />
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-6 p-3">
-            <div class="container w-75">
+          <div className="col-md-4 col-lg-4 col-xl-4 p-3">
+            <div class="card border-0 shadow p-2 w-75 m-auto">
               <h5>Safe laser</h5>
               <p>
                 A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül
@@ -50,7 +50,7 @@ function Safe() {
       <div className="container my-5">
         <div className="row">
           <div className="col-md-6">
-            <div className="card border-0 shadow">
+            <div className="card border-0 shadow mt-3">
               <div className="card-body">
                 <p className="card-text">
                   Biostimulációs hatása serkenti a sejtek és szövetek
@@ -65,7 +65,7 @@ function Safe() {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="card border-0 shadow">
+            <div className="card border-0 shadow w-75 m-auto mt-3">
               <img
                 src="/images/safe-laser2.jpg"
                 className="card-img-top"
@@ -76,7 +76,10 @@ function Safe() {
         </div>
       </div>
 
-      <div class="container w-50 d-none d-md-block">
+      <br />
+      <br />
+
+      {/* <div class="container w-50 d-none d-md-block">
         <Slider {...settings}>
           <img src="images/plasma-generator.jpg" className="rounded" alt="plasma-generator" />
           <img src="images/baba.jpg" className="rounded" alt="baba" />
@@ -85,7 +88,7 @@ function Safe() {
           <img src="images/piroca_magide.jpg" className="rounded" alt="background" />
           <img src="images/baba+magdi2.jpg" className="rounded" alt="background" />
         </Slider>
-      </div>
+      </div> */}
 
       {/* <div className="container mt-4">
         <div className="row">

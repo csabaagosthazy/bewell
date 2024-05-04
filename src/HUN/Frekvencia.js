@@ -16,7 +16,7 @@ function Frekvencia() {
     nextArrow: <button className="btn btn-primary slick-next">Next</button>,
   };
   return (
-    <div>
+    <div className="teljes">
       <div className="background-frekvencia">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
@@ -27,8 +27,8 @@ function Frekvencia() {
               alt="plasma-generator.JPG"
             />
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-6 p-3">
-            <div class="container w-75">
+          <div className="col-md-4 col-lg-4 col-xl-4 p-3">
+            <div class="card border-0 shadow p-2 m-auto w-75">
               <h5>Frekvencia terápia</h5>
               <p>
                 A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,
@@ -60,18 +60,21 @@ function Frekvencia() {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="card border-0 shadow">
+            {/* <div className="card border-0 shadow p-2">
               <img
                 src="images/udvozlunk.jpg"
                 className="card-img-top"
                 alt="nls.jpg"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
 
-      <div class="container w-50 d-none d-md-block">
+      <br />
+      <br />
+
+      {/* <div class="container w-50 d-none d-md-block">
         <Slider {...settings}>
           <img src="images/plasma-generator.jpg" className="rounded" alt="plasma-generator" />
           <img src="images/baba.jpg" className="rounded" alt="baba" />
@@ -80,7 +83,7 @@ function Frekvencia() {
           <img src="images/piroca_magide.jpg" className="rounded" alt="background" />
           <img src="images/baba+magdi2.jpg" className="rounded" alt="background" />
         </Slider>
-      </div>
+      </div> */}
 
       {/* <div className="container my-5">
         <div className="row justify-content-center">

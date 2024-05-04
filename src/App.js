@@ -14,6 +14,7 @@ import Termekek from "./HUN/Termekek.js";
 import Home from "./HUN/Home.js";
 import Impresszum from "./HUN/Impresszum.js";
 import Arak from "./HUN/Arak.js";
+import Videok from "./HUN/Videok.js";
 
 function App() {
   const [collapsed, setCollapsed] = useState(true);
@@ -114,6 +115,24 @@ function App() {
                       Árak
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/Videok"
+                      onClick={toggleNavbar}
+                    >
+                      Videók
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      className="nav-link"
+                      to="/Termekek"
+                      onClick={toggleNavbar}
+                    >
+                      Termékek
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -130,6 +149,7 @@ function App() {
             <Route path="/Termekek" element={<Termekek />} />
             <Route path="/Impresszum" element={<Impresszum />} />
             <Route path="/Arak" element={<Arak />} />
+            <Route path="/Videok" element={<Videok />} />
           </Routes>
         </Router>
       </div>

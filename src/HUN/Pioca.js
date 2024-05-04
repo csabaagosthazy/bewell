@@ -18,22 +18,22 @@ function Pioca() {
     nextArrow: <button className="btn btn-primary slick-next">Next</button>,
   };
   return (
-    <div>
+    <div className="teljes">
       <div className="background-pioca">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
-              className="m-3 rounded border"
-              style={{ width: "75%" }}
+              className="m-3 rounded border img-fluid"
               src="images/piroca_magide.jpg"
               alt="pioca.jpeg"
+              style={{ maxWidth: "75%", width: "50%" }}
             />
           </div>
-          <div className="col-md-6 col-lg-6 col-xl-6 p-3">
-            <div className="container w-75">
+          <div className="col-md-4 col-lg-4 col-xl-4 p-3">
+            <div className="card border-0 shadow p-2 m-auto">
               <h5>Pióca terápia</h5>
               <p>
-                A hidroterápia hatékony és mellékhatások nélküli módszer
+                A hirudoterápia hatékony és mellékhatások nélküli módszer
                 különféle betegségek kezelésére, elsősorban érrendszeri
                 problémáknál alkalmazzák, a nyirok keringés serkentésére, segít
                 felszabadítani a méreganyagokat.
@@ -44,9 +44,9 @@ function Pioca() {
         </div>
       </div>
 
-      <div className="container my-5">
+      <div className="container-beige container">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 mt-3">
             <div className="card border-0 shadow">
               <div className="card-body">
                 <p className="card-text">
@@ -61,11 +61,14 @@ function Pioca() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="card border-0 shadow">
+          <div className="col-md-6 mt-3">
+            <div
+              style={{ width: "75%" }}
+              className="card border-0 shadow m-auto"
+            >
               <img
                 src="/images/pioca_magdie2.jpg"
-                className="card-img-top"
+                className="card-img-top m-auto"
                 alt="bgnd.jpeg"
               />
             </div>
@@ -73,7 +76,9 @@ function Pioca() {
         </div>
       </div>
 
-      <div class="container w-50 d-none d-md-block">
+      <div className="kitolto"></div>
+
+      {/* <div class="container w-50 d-none d-md-block">
         <Slider {...settings}>
           <img src="images/plasma-generator.jpg" className="rounded" alt="plasma-generator" />
           <img src="images/baba.jpg" className="rounded" alt="baba" />
@@ -82,7 +87,7 @@ function Pioca() {
           <img src="images/piroca_magide.jpg" className="rounded" alt="background" />
           <img src="images/baba+magdi2.jpg" className="rounded" alt="background" />
         </Slider>
-      </div>
+      </div> */}
 
       {/* <div className="container-fluid py-5 bg-light">
         <div className="row justify-content-center">

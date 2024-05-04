@@ -1,6 +1,6 @@
 function Termekek() {
     return(
-        <div>
+        <div className="teljes">
             <h1>Termékek</h1>
         </div>
     )
