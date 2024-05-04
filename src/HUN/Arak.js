@@ -115,7 +115,7 @@ function Arak() {
                                         12.000 Ft
                                     </button>
                                 </div>
-                                <p className="text-center">Az alapkezelésben 2db pióca van, amennyiben szükség lenne további piócára</p>
+                                <p className="text-center mt-2">Az alapkezelésben 2db pióca van, amennyiben szükség lenne további piócára</p>
                                 <div className="text-center">
                                     <button className="btn btn-primary m-auto text-center">
                                         1.500 Ft / db

@@ -31,7 +31,7 @@ function Safe() {
             />
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
-            <div class="card border-0 shadow p-2 w-75 m-auto">
+            <div class="card border-0 shadow p-2 m-auto">
               <h5>Safe laser</h5>
               <p>
                 A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül
