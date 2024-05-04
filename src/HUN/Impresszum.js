@@ -75,7 +75,7 @@ function Impresszum() {
           <div className="col-md-6 mt-3">
             <div className="card border-0 shadow">
               <img
-                src="images/bgnd.jpeg"
+                src="images/udvozlunk.jpg"
                 className="card-img-top"
                 alt="bgnd.jpeg"
               />
