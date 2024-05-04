@@ -6,7 +6,7 @@ function Impresszum() {
     <div className="teljes">
       <div className="background-magamrol">
         <div className="row">
-          <div className="col-md-12 col-lg-12 col-xl-12 p-3">
+          <div className="col-md-7 col-lg-7 col-xl-7 p-3 m-auto">
             <div class="w-100 card border-0 shadow p-2 m-auto">
               <h5>Impresszum és jogi vonatkozások</h5>
               <p>
