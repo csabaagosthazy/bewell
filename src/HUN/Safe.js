@@ -47,7 +47,7 @@ function Safe() {
         
       </div>
 
-      <div className="container my-5">
+      <div className="container">
         <div className="row">
           <div className="col-md-6">
             <div className="card border-0 shadow mt-3">
