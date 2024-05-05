@@ -31,35 +31,37 @@ function NLS() {
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div class="p-2 m-auto">
-              <h5>NLS Diagnosztika</h5>
+              <h5>NLS-Diagnostik</h5>
               <p>
-                E technológia átfogó elemzést tesz lehetővé az emberi test
-                minden szervéről és rendszeréről. Ősi gyógyító hagyományokra
-                épít, miközben a modern tudományos kutatások eredményeire is
-                támaszkodik.
+                Diese Technologie ermöglicht eine umfassende Analyse aller
+                Organe und Systeme des menschlichen Körpers. Sie basiert auf
+                alten Heiltraditionen und stützt sich gleichzeitig auf die
+                Ergebnisse moderner wissenschaftlicher Forschung.
               </p>
               <br />
-              <h5 className="card-title text-center">Magába foglalja:</h5>
+              <h5 className="card-title text-center">Enthält:</h5>
               <div className="card-text">
                 <ul>
                   <li>
-                    Gasztroentrológiát, ami az emésztőrendszerrel kapcsolatos
+                    Gastroenterologie, die sich mit dem Verdauungssystem befasst
                   </li>
                   <li>
-                    Pulmonólógiát ami a tüdővel és légzőrendszerrel kapcsolatos
+                    Pulmonologie, die sich mit der Lunge und dem Atmungssystem
+                    befasst
                   </li>
                   <li>
-                    Nőgyógyászati panaszokat és elváltozásokat: ciszta, nemi
-                    betegségek, endometriózis kimutatását
+                    Gynäkologische Beschwerden und Erkrankungen: Zysten,
+                    Geschlechtskrankheiten, Endometriose-Erkennung
                   </li>
                   <li>
-                    Endokrinológiát, a szervezet hormonháztartását: pajzsmirigy,
-                    agyalapi mirigy, petefészek, herék, mellékvese állapotát
+                    Endokrinologie, die den Hormonhaushalt des Körpers betrifft:
+                    Schilddrüse, Hypophyse, Eierstöcke, Hoden,
+                    Nebennierenzustand
                   </li>
                   <li>
-                    Mikroorganizmusok vizsgálatát: a baktériumok, gombák,
-                    paraziták, a vírus fertőzések jelenlétét és kezelési
-                    lehetőségeit mutatja
+                    Untersuchung von Mikroorganismen: zeigt das Vorhandensein
+                    und die Behandlungsmöglichkeiten von Bakterien, Pilzen,
+                    Parasiten und Virusinfektionen
                   </li>
                 </ul>
               </div>

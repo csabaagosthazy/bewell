@@ -15,21 +15,22 @@ function Frekvencia() {
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div class="p-2 m-auto">
-              <h5>Frekvencia terápia</h5>
+              <h5>Frequency therapy</h5>
               <p>
-                A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,
-                amelyben a rezgések alkalmazásával kioltják az élősködőket,
-                kórokozókat, különböző mikroorganizmusokat, miközben
-                harmonizálják és támogatják a szervezetet.
+                Frequency therapy (plasma generator treatment) is a method in
+                which parasites, pathogens, and various microorganisms are
+                neutralized using vibrations while harmonizing and supporting
+                the body.
               </p>
               <br />
               <p className="card-text">
-                A kezelés során a gép azonosítja a betegségeket okozó
-                rezgéseket, majd ezeket a sajátos frekvenciákat használja föl a
-                kórokozók kioltására. Ezek az irányított rezgések lengésbe
-                hozzák a mikroorganizmus sejtfalát, membránját, azok nem bírják
-                elviselni a növekvő lengést és egy idő után megrepednek. Ezzel a
-                mikroorganizmus elpusztul, azaz deaktiválódik!
+                During the treatment, the machine identifies the vibrations
+                causing diseases, then utilizes these specific frequencies to
+                neutralize the pathogens. These directed vibrations induce
+                oscillation in the cell wall and membrane of microorganisms;
+                they cannot withstand the increasing oscillation and eventually
+                rupture. As a result, the microorganism is destroyed, i.e.,
+                deactivated!
               </p>
             </div>
           </div>

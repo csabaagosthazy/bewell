@@ -17,24 +17,24 @@ function Magamrol() {
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div class="p-2 m-auto">
-              <h5>Magamról</h5>
+              <h5>Über mich</h5>
               <p>
-                Üdvözlöm! Kozma Magdolna vagyok, évtizedek óta az egészséges
-                életmód híve, mind saját magam, mind pedig a szeretteim körében.
-                Engem már gyermekkoromban az otthoni környezetben felnőve
-                bevezettek a népi gyógymódok világába, a természet kínálta
-                öngyógyító lehetőségekbe, amiket azóta is gyakorlok. Így ezek az
-                ismeretek mélyen gyökereznek bennem, szorosan összefonódtak
-                mindennapi életemmel.
+                Herzlich willkommen! Ich bin Magdolna Kozma und seit Jahrzehnten
+                ein Anhänger eines gesunden Lebensstils, sowohl für mich als
+                auch für meine Lieben. Bereits in meiner Kindheit wurde ich in
+                die Welt der Volksheilmittel eingeführt, die die Natur bietet,
+                und ich praktiziere sie seitdem. Diese Kenntnisse sind tief in
+                mir verwurzelt und sind fest mit meinem täglichen Leben
+                verbunden.
               </p>
               <br />
               <p className="card-text">
-                Azért választottam a honlapomon felsorolt fizikai és közérzet
-                javító terápiákat és azért merültem el bennük, mert
-                szenvedélyesen érdekel az egészség, szeretnék másoknak is
-                segíteni abban, hogy megismertessem, hogyan lehet a hagyományos
-                módszereket és a modern technológia eszközeit kombinálva
-                javítani az egészségi állapotukon.
+                Ich habe die auf meiner Website aufgeführten körperlichen und
+                Wohlfühltherapien ausgewählt und mich in sie vertieft, weil mich
+                Gesundheit leidenschaftlich interessiert. Ich möchte anderen
+                helfen, zu erfahren, wie man durch die Kombination
+                traditioneller Methoden und moderner Technologien die eigene
+                Gesundheit verbessern kann.
               </p>
             </div>
           </div>

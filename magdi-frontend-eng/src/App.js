@@ -36,20 +36,20 @@ function App() {
                 to="/"
                 onClick={() => setCollapsed(true)}
               >
-                Főoldal
+                Homepage
               </Link>
               <div className="zaszlok text-center">
-                  <img
-                    className="m-1 rounded border zaszlo-img"
-                    src="/images/hun.png"
-                    alt="hun.JPG"
-                  />
-                  <img
-                    className="m-1 rounded border zaszlo-img"
-                    src="/images/eng.png"
-                    alt="eng.JPG"
-                  />
-                </div>
+                <img
+                  className="m-1 rounded border zaszlo-img"
+                  src="/images/hun.png"
+                  alt="hun.JPG"
+                />
+                <img
+                  className="m-1 rounded border zaszlo-img"
+                  src="/images/eng.png"
+                  alt="eng.JPG"
+                />
+              </div>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -66,7 +66,7 @@ function App() {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <Link className="nav-link" to="/NLS" onClick={toggleNavbar}>
-                      NLS diagnosztika
+                      NLS diagnostics
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -75,7 +75,7 @@ function App() {
                       to="/Pioca"
                       onClick={toggleNavbar}
                     >
-                      Pióca terápia
+                      Leech therapy
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -93,7 +93,7 @@ function App() {
                       to="/Frekvencia"
                       onClick={toggleNavbar}
                     >
-                      Frekvencia terápia
+                      Frequency therapy
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -102,7 +102,7 @@ function App() {
                       to="/Magamrol"
                       onClick={toggleNavbar}
                     >
-                      Magamról
+                      About me
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -111,7 +111,7 @@ function App() {
                       to="/Arak"
                       onClick={toggleNavbar}
                     >
-                      Árak
+                      Prices
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -120,7 +120,7 @@ function App() {
                       to="/Videok"
                       onClick={toggleNavbar}
                     >
-                      Videók
+                      Videos
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -129,7 +129,7 @@ function App() {
                       to="/Termekek"
                       onClick={toggleNavbar}
                     >
-                      Termékek
+                      Shop
                     </Link>
                   </li>
                 </ul>

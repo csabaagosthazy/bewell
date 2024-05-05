@@ -31,35 +31,37 @@ function NLS() {
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div class="p-2 m-auto">
-              <h5>NLS Diagnosztika</h5>
+              <h5>NLS Diagnostics</h5>
               <p>
-                E technológia átfogó elemzést tesz lehetővé az emberi test
-                minden szervéről és rendszeréről. Ősi gyógyító hagyományokra
-                épít, miközben a modern tudományos kutatások eredményeire is
-                támaszkodik.
+                This technology allows comprehensive analysis of every organ and
+                system in the human body. It builds on ancient healing
+                traditions while also relying on the results of modern
+                scientific research.
               </p>
               <br />
-              <h5 className="card-title text-center">Magába foglalja:</h5>
+              <h5 className="card-title text-center">It includes:</h5>
               <div className="card-text">
                 <ul>
                   <li>
-                    Gasztroentrológiát, ami az emésztőrendszerrel kapcsolatos
+                    Gastroenterology, which deals with the digestive system
                   </li>
                   <li>
-                    Pulmonólógiát ami a tüdővel és légzőrendszerrel kapcsolatos
+                    Pulmonology, which deals with the lungs and respiratory
+                    system
                   </li>
                   <li>
-                    Nőgyógyászati panaszokat és elváltozásokat: ciszta, nemi
-                    betegségek, endometriózis kimutatását
+                    Gynecological complaints and disorders: detection of cysts,
+                    sexually transmitted diseases, endometriosis, etc.
                   </li>
                   <li>
-                    Endokrinológiát, a szervezet hormonháztartását: pajzsmirigy,
-                    agyalapi mirigy, petefészek, herék, mellékvese állapotát
+                    Endocrinology, the body's hormone balance: assessing the
+                    thyroid, pituitary gland, ovaries, testes, adrenal glands,
+                    etc.
                   </li>
                   <li>
-                    Mikroorganizmusok vizsgálatát: a baktériumok, gombák,
-                    paraziták, a vírus fertőzések jelenlétét és kezelési
-                    lehetőségeit mutatja
+                    Examination of microorganisms: detects the presence and
+                    treatment options of bacteria, fungi, parasites, and viral
+                    infections.
                   </li>
                 </ul>
               </div>

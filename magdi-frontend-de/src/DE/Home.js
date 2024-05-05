@@ -12,7 +12,7 @@ function Home() {
         <div class="kor-kep m-auto"></div>
         <blockquote class="blockquote mt-3">
           <p class="mb-0 text-center szoveg">
-            Üdvözlöm a légyjólközpont oldalán!
+            Willkommen auf der Website von legyjolkozpont.at!
           </p>
         </blockquote>
       </div>

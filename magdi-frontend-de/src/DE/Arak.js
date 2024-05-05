@@ -8,22 +8,22 @@ function Arak() {
           <div className="col-md-12 mb-4 mb-md-0">
             <div className="mt-4">
               <div className="card-body">
-                <h3>Balatonalmádiban érvényes árak</h3>
+                <h3>Balatonalmádi aktuelle Preise</h3>
                 <ul>
-                  <h5 className="card-title">NLS diagnosztika</h5>
-                  <li>60 és 90 perc - 15.000 Ft</li>
+                  <h5 className="card-title">NLS Diagnostik</h5>
+                  <li>60 und 90 Minuten - 15.000 Ft</li>
                   <br />
-                  <h5 className="card-title">Frekvencia terápia</h5>
-                  <li>60 perc - 10.000 Ft</li>
+                  <h5 className="card-title">Frequenztherapie</h5>
+                  <li>60 Minuten - 10.000 Ft</li>
                   <br />
-                  <h5 className="card-title">Safe laser kezelés</h5>
-                  <li>40 perc - 6.000 Ft</li>
+                  <h5 className="card-title">Safe-Laserbehandlung</h5>
+                  <li>40 Minuten - 6.000 Ft</li>
                   <br />
-                  <h5 className="card-title">Pióca kezelés</h5>
-                  <li>30 és 90 perc között - 12.000 Ft</li>
+                  <h5 className="card-title">Blutegeltherapie</h5>
+                  <li>30 bis 90 Minuten - 12.000 Ft</li>
                   <li>
-                    Az alapkezelésben 2db pióca van, amennyiben szükség lenne
-                    további piócárat - 1.500 Ft / db
+                    In der Grundbehandlung sind 2 Blutegel enthalten. Bei Bedarf
+                    weitere Blutegel - 1.500 Ft / Stück
                   </li>
                 </ul>
               </div>

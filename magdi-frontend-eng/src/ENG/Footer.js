@@ -14,15 +14,19 @@ function Footer() {
           <div class="col-md-6">
             <p>
               Email:{" "}
-              <a href="mailto:legyjolkozpont@gmail.com">legyjolkozpont@gmail.com</a>
+              <a href="mailto:legyjolkozpont@gmail.com">
+                legyjolkozpont@gmail.com
+              </a>
             </p>
           </div>
         </div>
         <Link className="mb-2 link" to="/Impresszum">
-          Impresszum
+          Imprint
         </Link>
         <div class="row">
-          <p className="text-center">© 2024 plazma.ujjweb.hu. Minden jog fenntartva.</p>
+          <p className="text-center">
+            © 2024 legyjolkozpont.hu. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>

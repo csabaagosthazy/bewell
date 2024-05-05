@@ -1,7 +1,7 @@
 function Termekek() {
     return(
         <div className="teljes">
-            <h1>Termékek</h1>
+            <h1>Produkte</h1>
         </div>
     )
 }

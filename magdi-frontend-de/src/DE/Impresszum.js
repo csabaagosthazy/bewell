@@ -8,30 +8,38 @@ function Impresszum() {
         <div className="row">
           <div className="col-md-7 col-lg-7 col-xl-7 p-3 m-auto">
             <div class="w-100 card border-0 shadow p-2 m-auto">
-              <h5>Impresszum és jogi vonatkozások</h5>
+              <h5>Impressum und rechtliche Hinweise</h5>
               <p>
-                Örülök, hogy meglátogat. Kérem, vegye figyelembe a következőket.
+                Ich freue mich, dass Sie vorbeischauen. Bitte beachten Sie
+                Folgendes.
               </p>
 
               <ul>
                 <li>
-                  A{" "}
+                  Die verantwortliche Betreiberin von{" "}
                   <span
                     style={{ textDecoration: "underline", fontWeight: "bold" }}
                   >
-                    <Link to="/"  style={{color: "black",}}>https://legyjolkozpont.hu</Link>
+                    <Link to="/" style={{ color: "black" }}>
+                      https://legyjolkozpont.hu
+                    </Link>
                   </span>{" "}
-                  felelős üzemeltetője Kozma Magdolna 8200 Balatonalmádi.
+                  ist Magdolna Kozma, 8200 Balatonalmádi.
                 </li>
                 <li>
-                  A{" "}
                   <span
-                    style={{ color: "black", textDecoration: "underline", fontWeight: "bold" }}
+                    style={{
+                      color: "black",
+                      textDecoration: "underline",
+                      fontWeight: "bold",
+                    }}
                   >
-                    <Link to="/" style={{color: "black",}}>https://legyjolkozpont.hu</Link>
+                    <Link to="/" style={{ color: "black" }}>
+                      https://legyjolkozpont.hu
+                    </Link>
                   </span>{" "}
-                  tisztán magánjellegű tájékoztatás. Nem "sajtó- vagy
-                  médiaszolgáltató".
+                  ist rein privat und dient nur zur Information. Es handelt sich
+                  nicht um einen "Presse- oder Mediendienstleister
                 </li>
               </ul>
             </div>
@@ -44,30 +52,29 @@ function Impresszum() {
           <div className="col-md-6 mt-3">
             <div className="card border-0 shadow">
               <div className="card-body">
-                <h3 className="text-center">Szerzői jog © Copyright </h3>
-                <p className="card-text">
-                  Kozma Magdolna, Balatonalmádi (Magyarország). Minden jog
-                  fönntartva. Valamennyi a honlapon látható szöveg és felvétel
-                  saját készítésű. Szöveg, képek, ábrák, valamint mindennek
-                  elrendezése a https://legyjolkozpont.hu-n a szerzői jogra vonatkozó
-                  és további törvények védelme alatt áll.
+                <h3 class="text-center">Urheberrecht © Copyright</h3>
+                <p class="card-text">
+                  Magdolna Kozma, Balatonalmádi (Ungarn). Alle Rechte
+                  vorbehalten. Alle Texte und Aufnahmen auf der Website sind
+                  Eigenproduktion. Texte, Bilder, Grafiken sowie deren Anordnung
+                  auf https://legyjolkozpont.hu unterliegen dem Urheberrecht und
+                  anderen Gesetzen zum Schutz des geistigen Eigentums.
                 </p>
                 <br />
-                <h3 className="text-center">Minden felelősség kizárva</h3>
+                <h3 class="text-center">Haftungsausschluss</h3>
                 <p class="card-text">
-                  Az üzemeltető oldalait a lehető legnagyobb gonddal állította
-                  össze. Ennek ellenére nem garantálhatja a közölt adatok
-                  maradéktalan hibátlanságát és pontosságát. Az üzemeltető
-                  ezennel kizár minden kártérítést, amely ezen oldalak
-                  felhasználása során közvetlenül vagy közvetve felmerülhet.
+                  Der Betreiber hat die Website mit größter Sorgfalt erstellt.
+                  Dennoch kann er nicht garantieren, dass die veröffentlichten
+                  Daten vollständig fehlerfrei und genau sind. Der Betreiber
+                  schließt hiermit jede Haftung für Schäden aus, die direkt oder
+                  indirekt aus der Nutzung dieser Seiten entstehen können.
                 </p>
                 <br />
-                <h3 className="text-center">Külső kapcsolatok (linkek)</h3>
+                <h3 class="text-center">Externe Verbindungen (Links)</h3>
                 <p class="card-text">
-                  Amennyiben erről az internetlapról más lapokra utaló
-                  kapcsolatok erednek, amelyeket harmadik személy bocsát
-                  rendelkezésre, azok tartalmáért e lap üzemeltetője nem
-                  vállalhat felelősséget.
+                  Sofern von dieser Website aus Verbindungen zu anderen Websites
+                  hergestellt werden, die von Dritten bereitgestellt werden,
+                  übernimmt der Betreiber keine Verantwortung für deren Inhalt.
                 </p>
               </div>
             </div>
@@ -83,7 +90,7 @@ function Impresszum() {
           </div>
         </div>
       </div>
-      
+
       <Footer />
     </div>
   );

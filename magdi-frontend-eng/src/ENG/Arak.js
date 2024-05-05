@@ -8,22 +8,22 @@ function Arak() {
           <div className="col-md-12 mb-4 mb-md-0">
             <div className="mt-4">
               <div className="card-body">
-                <h3>Balatonalmádiban érvényes árak</h3>
+                <h3>Prices valid in Balatonalmádi</h3>
                 <ul>
-                  <h5 className="card-title">NLS diagnosztika</h5>
-                  <li>60 és 90 perc - 15.000 Ft</li>
+                  <h5 className="card-title">NLS diagnostics</h5>
+                  <li>60 and 90 minutes - 15.000 HUF</li>
                   <br />
-                  <h5 className="card-title">Frekvencia terápia</h5>
-                  <li>60 perc - 10.000 Ft</li>
+                  <h5 className="card-title">Frequency therapy</h5>
+                  <li>60 minutes - 10.000 HUF</li>
                   <br />
-                  <h5 className="card-title">Safe laser kezelés</h5>
-                  <li>40 perc - 6.000 Ft</li>
+                  <h5 className="card-title">Safe laser treatment</h5>
+                  <li>40 minutes - 6.000 HUF</li>
                   <br />
-                  <h5 className="card-title">Pióca kezelés</h5>
-                  <li>30 és 90 perc között - 12.000 Ft</li>
+                  <h5 className="card-title">Leech therapy</h5>
+                  <li>Between 30 and 90 minutes - 12.000 HUF</li>
                   <li>
-                    Az alapkezelésben 2db pióca van, amennyiben szükség lenne
-                    további piócárat - 1.500 Ft / db
+                    The basic treatment includes 2 leeches, if additional
+                    leeches are needed - 1.500 HUF / piece
                   </li>
                 </ul>
               </div>

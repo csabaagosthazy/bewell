@@ -31,22 +31,23 @@ function Pioca() {
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div className="p-2 m-auto">
-              <h5>Pióca terápia</h5>
+              <h5>Pioktherapie</h5>
               <p>
-                A hirudoterápia hatékony és mellékhatások nélküli módszer
-                különféle betegségek kezelésére, elsősorban érrendszeri
-                problémáknál alkalmazzák, a nyirok keringés serkentésére, segít
-                felszabadítani a méreganyagokat.
+                Die Hirudotherapie ist eine wirksame und nebenwirkungsfreie
+                Methode zur Behandlung verschiedener Krankheiten, die
+                hauptsächlich bei Gefäßproblemen angewendet wird, um den
+                Lymphfluss anzuregen und Giftstoffe freizusetzen.
               </p>
               <br />
               <p className="card-text">
-                A piócák segítenek enyhíteni a véráramlást, normalizálni a
-                vérnyomást, a vér sűrűségét, és kezelni a vérrögképződéssel
-                kapcsolatos problémákat. Emellett hatékonyak az aranyér, az
-                ízületi, idegrendszeri és bőrbetegségek kezelésében, valamint az
-                immunrendszer erősítésében is. A piócaterápia széles körben
-                alkalmazható és jó eredményeket mutat, valamint kozmetikai
-                célokra is felhasználható.
+                Die Blutegel helfen, den Blutfluss zu verbessern, den Blutdruck
+                zu normalisieren, die Blutdichte zu regulieren und Probleme im
+                Zusammenhang mit Blutgerinnseln zu behandeln. Darüber hinaus
+                sind sie wirksam bei der Behandlung von Hämorrhoiden, Gelenk-,
+                Nerven- und Hauterkrankungen sowie bei der Stärkung des
+                Immunsystems. Die Blutegeltherapie wird weit verbreitet
+                eingesetzt und zeigt gute Ergebnisse, und sie kann auch zu
+                kosmetischen Zwecken verwendet werden.
               </p>
             </div>
           </div>

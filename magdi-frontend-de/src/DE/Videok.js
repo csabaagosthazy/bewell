@@ -1,7 +1,7 @@
 function Videok() {
     return(
         <div className="teljes">
-            <h1>Videók</h1>
+            <h1>Videos</h1>
         </div>
     )
 }

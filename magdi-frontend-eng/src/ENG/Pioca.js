@@ -31,22 +31,21 @@ function Pioca() {
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div className="p-2 m-auto">
-              <h5>Pióca terápia</h5>
+              <h5>Leech Therapy</h5>
               <p>
-                A hirudoterápia hatékony és mellékhatások nélküli módszer
-                különféle betegségek kezelésére, elsősorban érrendszeri
-                problémáknál alkalmazzák, a nyirok keringés serkentésére, segít
-                felszabadítani a méreganyagokat.
+                Hirudotherapy is an effective and side-effect-free method for
+                treating various diseases, primarily used for vascular problems,
+                stimulating lymph circulation, and helping to release toxins.
               </p>
               <br />
               <p className="card-text">
-                A piócák segítenek enyhíteni a véráramlást, normalizálni a
-                vérnyomást, a vér sűrűségét, és kezelni a vérrögképződéssel
-                kapcsolatos problémákat. Emellett hatékonyak az aranyér, az
-                ízületi, idegrendszeri és bőrbetegségek kezelésében, valamint az
-                immunrendszer erősítésében is. A piócaterápia széles körben
-                alkalmazható és jó eredményeket mutat, valamint kozmetikai
-                célokra is felhasználható.
+                Leeches help alleviate blood flow, normalize blood pressure,
+                blood viscosity, and address problems related to blood clot
+                formation. Additionally, they are effective in treating
+                hemorrhoids, joint, neurological, and skin diseases, as well as
+                strengthening the immune system. Leech therapy is widely
+                applicable and shows promising results, and can also be used for
+                cosmetic purposes.
               </p>
             </div>
           </div>

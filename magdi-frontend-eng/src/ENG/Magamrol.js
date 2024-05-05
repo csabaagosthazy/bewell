@@ -17,24 +17,23 @@ function Magamrol() {
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div class="p-2 m-auto">
-              <h5>Magamról</h5>
+              <h5>About Me</h5>
               <p>
-                Üdvözlöm! Kozma Magdolna vagyok, évtizedek óta az egészséges
-                életmód híve, mind saját magam, mind pedig a szeretteim körében.
-                Engem már gyermekkoromban az otthoni környezetben felnőve
-                bevezettek a népi gyógymódok világába, a természet kínálta
-                öngyógyító lehetőségekbe, amiket azóta is gyakorlok. Így ezek az
-                ismeretek mélyen gyökereznek bennem, szorosan összefonódtak
-                mindennapi életemmel.
+                Welcome! My name is Magdolna Kozma, and I have been a supporter
+                of a healthy lifestyle for decades, both for myself and for my
+                loved ones. Since childhood, I have been introduced to the world
+                of traditional remedies and the self-healing opportunities
+                offered by nature, which I have been practicing ever since.
+                These knowledge have deeply rooted in me, intertwining closely
+                with my everyday life.
               </p>
               <br />
               <p className="card-text">
-                Azért választottam a honlapomon felsorolt fizikai és közérzet
-                javító terápiákat és azért merültem el bennük, mert
-                szenvedélyesen érdekel az egészség, szeretnék másoknak is
-                segíteni abban, hogy megismertessem, hogyan lehet a hagyományos
-                módszereket és a modern technológia eszközeit kombinálva
-                javítani az egészségi állapotukon.
+                I chose the physical and well-being improving therapies listed
+                on my website and immersed myself in them because I am
+                passionately interested in health. I want to help others
+                understand how to improve their health by combining traditional
+                methods with modern technological tools.
               </p>
             </div>
           </div>
