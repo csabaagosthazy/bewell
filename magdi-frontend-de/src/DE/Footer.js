@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="footer egyedi-asd bg-dark text-light pt-2 mt-4">
       <div className="container text-center">
-        <h5>Elérhetőségek</h5>
+        <h5>Kontakt</h5>
         <div class="row">
           <div class="col-md-6">
             <p>

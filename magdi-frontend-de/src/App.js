@@ -36,7 +36,7 @@ function App() {
                 to="/"
                 onClick={() => setCollapsed(true)}
               >
-                Főoldal
+                Startseite
               </Link>
               <div className="zaszlok text-center">
                   <img
@@ -66,7 +66,7 @@ function App() {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <Link className="nav-link" to="/NLS" onClick={toggleNavbar}>
-                      NLS diagnosztika
+                    NLS Diagnostik
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -75,7 +75,7 @@ function App() {
                       to="/Pioca"
                       onClick={toggleNavbar}
                     >
-                      Pióca terápia
+                      Blutegeltherapie
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -93,7 +93,7 @@ function App() {
                       to="/Frekvencia"
                       onClick={toggleNavbar}
                     >
-                      Frekvencia terápia
+                      Frequenztherapie
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -102,7 +102,7 @@ function App() {
                       to="/Magamrol"
                       onClick={toggleNavbar}
                     >
-                      Magamról
+                      Über mich
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -111,7 +111,7 @@ function App() {
                       to="/Arak"
                       onClick={toggleNavbar}
                     >
-                      Árak
+                      Prices
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -120,7 +120,7 @@ function App() {
                       to="/Videok"
                       onClick={toggleNavbar}
                     >
-                      Videók
+                      Videos
                     </Link>
                   </li>
                   <li className="nav-item">
@@ -129,7 +129,7 @@ function App() {
                       to="/Termekek"
                       onClick={toggleNavbar}
                     >
-                      Termékek
+                      Produkte
                     </Link>
                   </li>
                 </ul>
