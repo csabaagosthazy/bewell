@@ -17,7 +17,7 @@ function Frekvencia() {
   };
   return (
     <div className="teljes">
-      <div className="background-frekvencia">
+      <div className="background">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
@@ -37,17 +37,7 @@ function Frekvencia() {
                 harmonizálják és támogatják a szervezetet.
               </p>
               <br />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="container my-5">
-        <div className="row">
-          <div className="col-md-6">
-            <div className="card border-0 shadow">
-              <div className="card-body">
-                <p className="card-text">
+              <p className="card-text">
                   A kezelés során a gép azonosítja a betegségeket okozó
                   rezgéseket, majd ezeket a sajátos frekvenciákat használja föl
                   a kórokozók kioltására. Ezek az irányított rezgések lengésbe
@@ -56,20 +46,12 @@ function Frekvencia() {
                   megrepednek. Ezzel a mikroorganizmus elpusztul, azaz
                   deaktiválódik!
                 </p>
-              </div>
             </div>
-          </div>
-          <div className="col-md-6">
-            {/* <div className="card border-0 shadow p-2">
-              <img
-                src="images/udvozlunk.jpg"
-                className="card-img-top"
-                alt="nls.jpg"
-              />
-            </div> */}
           </div>
         </div>
       </div>
+
+      <div className="kitolto d-none d-md-block"></div>
 
       <br />
       <br />

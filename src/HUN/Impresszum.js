@@ -49,7 +49,7 @@ function Impresszum() {
                   Kozma Magdolna, Balatonalmádi (Magyarország). Minden jog
                   fönntartva. Valamennyi a honlapon látható szöveg és felvétel
                   saját készítésű. Szöveg, képek, ábrák, valamint mindennek
-                  elrendezése a https://legyjol.hu-n a szerzői jogra vonatkozó
+                  elrendezése a https://legyjolkozpont.hu-n a szerzői jogra vonatkozó
                   és további törvények védelme alatt áll.
                 </p>
                 <br />

@@ -19,12 +19,12 @@ function NLS() {
   };
   return (
     <div className="teljes">
-      <div className="background-nls">
+      <div className="background">
         <div className="row">
-          <div className="col-md-6 col-lg-6 col-xl-6 text-center">
+          <div className="col-md-6 col-lg-6 col-xl-6 text-center p-3">
             <img
               className="m-3 rounded border"
-              src="/images/baba.jpg"
+              src="/images/nls.jpg"
               style={{ width: "75%" }}
               alt="baba.jpg"
             />
@@ -39,17 +39,7 @@ function NLS() {
                 támaszkodik.
               </p>
               <br />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="container-beige container">
-        <div className="row">
-          <div className="col-md-6 mt-2">
-            <div className="card border-0 shadow">
-              <div className="card-body">
-                <h5 className="card-title text-center">Magába foglalja:</h5>
+              <h5 className="card-title text-center">Magába foglalja:</h5>
                 <div className="card-text">
                   <ul>
                     <li>
@@ -75,10 +65,14 @@ function NLS() {
                     </li>
                   </ul>
                 </div>
-              </div>
             </div>
           </div>
-          <div className="col-md-6 mt-2">
+        </div>
+      </div>
+
+      <div className="container-beige container">
+        <div className="row">
+          <div className="col-md-12 mt-2">
             <div className="card border-0 shadow">
             <div className="slider mt-4 m-auto">
               <Slider {...settings}>

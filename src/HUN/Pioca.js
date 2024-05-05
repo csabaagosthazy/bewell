@@ -19,7 +19,7 @@ function Pioca() {
   };
   return (
     <div className="teljes">
-      <div className="background-pioca">
+      <div className="background">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
@@ -39,17 +39,7 @@ function Pioca() {
                 felszabadítani a méreganyagokat.
               </p>
               <br />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="container-beige container">
-        <div className="row">
-          <div className="col-md-6 mt-3">
-            <div className="card border-0 shadow">
-              <div className="card-body">
-                <p className="card-text">
+              <p className="card-text">
                   A piócák segítenek enyhíteni a véráramlást, normalizálni a
                   vérnyomást, a vér sűrűségét, és kezelni a vérrögképződéssel
                   kapcsolatos problémákat. Emellett hatékonyak az aranyér, az
@@ -58,10 +48,14 @@ function Pioca() {
                   alkalmazható és jó eredményeket mutat, valamint kozmetikai
                   célokra is felhasználható.
                 </p>
-              </div>
             </div>
           </div>
-          <div className="col-md-6 mt-3">
+        </div>
+      </div>
+
+      <div className="container-beige container">
+        <div className="row">
+          <div className="col-md-12 mt-3">
             <div
               style={{ width: "75%" }}
               className="card border-0 shadow m-auto"

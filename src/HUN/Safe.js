@@ -20,13 +20,13 @@ function Safe() {
   return (
     <div className="teljes">
       {/* Background Section */}
-      <div className="background-safe-laser">
+      <div className="background">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
               className="m-3 rounded border"
               style={{ width: "50%" }}
-              src="/images/safe-laser.jpg"
+              src="/images/safe-laser2.jpg"
               alt="safe-laser.jpg"
             />
           </div>
@@ -41,18 +41,7 @@ function Safe() {
                 sejtekben.
               </p>
               <br />
-            </div>
-          </div>
-        </div>
-        
-      </div>
-
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-            <div className="card border-0 shadow mt-3">
-              <div className="card-body">
-                <p className="card-text">
+              <p className="card-text">
                   Biostimulációs hatása serkenti a sejtek és szövetek
                   regenerálódását, ezáltal felgyorsítja az idegi kapcsolatok
                   regenerációját és fokozza az idegrostokon továbbított jelek
@@ -61,13 +50,18 @@ function Safe() {
                   gyógyulását. Nagyobb dózis esetén akár az ízületi
                   porcfelszínek regenerálására is alkalmas.
                 </p>
-              </div>
             </div>
           </div>
-          <div className="col-md-6">
+        </div>
+        
+      </div>
+
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
             <div className="card border-0 shadow w-75 m-auto mt-3">
               <img
-                src="/images/safe-laser2.jpg"
+                src="/images/safe-laser.jpg"
                 className="card-img-top"
                 alt="safe-laser2.jpg"
               />

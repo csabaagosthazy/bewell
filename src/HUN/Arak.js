@@ -18,121 +18,46 @@ function Arak() {
         <div className="teljes">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6 mb-4 mb-md-0">
+                    <div className="col-md-12 mb-4 mb-md-0">
                         <div className="card custom-border mt-4">
-                            {/* <img
-                                src="/images/baba.jpg"
-                                className="card-img-top"
-                                alt="nls"
-                            /> */}
                             <div className="card-body">
-                                <h5 className="card-title">NLS diagnosztika</h5>
-                                {/* <p className="card-text">
-                                    E technológia átfogó elemzést tesz lehetővé az emberi test
-                                    minden szervéről és rendszeréről. Ősi gyógyító hagyományokra
-                                    épít, miközben a modern tudományos kutatások eredményeire is
-                                    támaszkodik.
-                                </p> */}
-                                <p className="text-center">60 és 90 perc</p>
-                                <div className="text-center">
-                                    <button className="btn btn-primary m-auto text-center">
-                                        15.000 Ft
-                                    </button>
-                                </div>
+                                <h3>Balatonalmádiban érvényes árak</h3>
+                                <ul>
+                                    <h5 className="card-title">NLS diagnosztika</h5>
+                                    <li>60 és 90 perc - 15.000 Ft</li>
+                                    <h5 className="card-title">Frekvencia terápia</h5>
+                                    <li>60 perc - 10.000 Ft</li>
+                                    <h5 className="card-title">Safe laser kezelés</h5>
+                                    <li>40 perc - 6.000 Ft</li>
+                                    <h5 className="card-title">Pióca kezelés</h5>
+                                    <li>30 és 90 perc között - 12.000 Ft</li>
+                                    <li>Az alapkezelésben 2db pióca van, amennyiben szükség lenne további piócárat - 1.500 Ft / db</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <div className="card custom-border mt-4">
-                            {/* <img
-                                src="/images/plasma-generator.jpg"
-                                className="card-img-top"
-                                alt="plasma-generator"
-                            /> */}
-                            <div className="card-body">
-                                <h5 className="card-title">Frekvencia terápia</h5>
-                                {/* <p className="card-text">
-                                    A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,
-                                    amelyben a rezgések alkalmazásával kioltják az élősködőket,
-                                    kórokozókat, különböző mikroorganizmusokat, miközben
-                                    harmonizálják és támogatják a szervezetet.
-                                </p> */}
-                                <div className="text-center">
-                                    <p className="text-center">60 perc</p>
-                                    <button className="btn btn-primary m-auto text-center">
-                                        10.000 Ft
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
                 <br />
                 <div className="row">
                     <div className="col-md-6 mb-4 mb-md-0">
-                        <div className="card custom-border mt-4">
-                            {/* <img
-                                src="/images/safe-laser.jpg"
-                                className="card-img-top"
-                                alt="safe-laser"
-                            /> */}
-                            <div className="card-body">
-                                <h5 className="card-title">Safe laser kezelés</h5>
-                                {/* <p className="card-text">
-                                    A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül
-                                    mélyen hatol a szövetekbe, akár 10 cm-es mélységig is,
-                                    kiválóan alkalmazható a mozgásszervi betegségek terápiájában.
-                                    A lézerfény aktiválja az ATP termelődését, mely az
-                                    energiatermelés alapja a sejtekben.
-                                </p> */}
-                                <p className="text-center">40 perc</p>
-                                <div className="text-center">
-                                    <button className="btn btn-primary m-auto text-center">
-                                        6.000 Ft
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div className="col-md-6">
-                        <div className="card custom-border mt-4">
-                            {/* <img
-                                src="/images/piroca_magide.jpg"
-                                className="card-img-top"
-                                alt="pioca-terapia"
-                            /> */}
-                            <div className="card-body">
-                                <h5 className="card-title">Pióca kezelés</h5>
-                                {/* <p className="card-text">
-                                    A hidroterápia hatékony és mellékhatások nélküli módszer
-                                    különféle betegségek kezelésére, elsősorban érrendszeri
-                                    problémáknál alkalmazzák, a nyirok keringés serkentésére,
-                                    segít felszabadítani a méreganyagokat.
-                                </p> */}
-                                <p className="text-center">30 és 90 perc között</p>
-                                <div className="text-center">
-                                    <button className="btn btn-primary m-auto text-center">
-                                        12.000 Ft
-                                    </button>
-                                </div>
-                                <p className="text-center mt-2">Az alapkezelésben 2db pióca van, amennyiben szükség lenne további piócára</p>
-                                <div className="text-center">
-                                    <button className="btn btn-primary m-auto text-center">
-                                        1.500 Ft / db
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
 
-            <br />
-            <br />
-            <br />
-            <br />
+            <div className="kitolto d-none d-md-block"></div>
+            <div className="kitolto d-none d-md-block"></div>
+            <div className="kitolto d-none d-md-block"></div>
+            <div className="kitolto"></div>
+            <div className="kitolto"></div>
 
-            <div class="container w-25 d-none d-md-block">
+            {/* <div class="container w-25 d-none d-md-block">
                 <Slider {...settings}>
                 <img src="images/plasma-generator.jpg" className="rounded" alt="plasma-generator" />
                 <img src="images/baba.jpg" className="rounded" alt="baba" />
@@ -141,7 +66,7 @@ function Arak() {
                 <img src="images/piroca_magide.jpg" className="rounded" alt="background" />
                 <img src="images/baba+magdi2.jpg" className="rounded" alt="background" />
                 </Slider>
-            </div>
+            </div> */}
             <Footer />
         </div>
     );

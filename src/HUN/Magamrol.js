@@ -6,7 +6,7 @@ function Magamrol() {
 
   return (
     <div className="teljes">
-      <div className="background-magamrol">
+      <div className="background">
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
@@ -29,17 +29,7 @@ function Magamrol() {
                 mindennapi életemmel.
               </p>
               <br />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="container my-5">
-        <div className="row">
-          <div className="col-md-6 mt-3">
-            <div className="card border-0 shadow">
-              <div className="card-body">
-                <p className="card-text">
+              <p className="card-text">
                   Azért választottam a honlapomon felsorolt fizikai és közérzet
                   javító terápiákat és azért merültem el bennük, mert
                   szenvedélyesen érdekel az egészség, szeretnék másoknak is
@@ -47,10 +37,14 @@ function Magamrol() {
                   hagyományos módszereket és a modern technológia eszközeit
                   kombinálva javítani az egészségi állapotukon.
                 </p>
-              </div>
             </div>
           </div>
-          <div className="col-md-6 mt-3">
+        </div>
+      </div>
+
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-md-12 mt-3">
             <div className="card border-0 shadow">
               <img
                 src="images/udvozlunk.jpg"

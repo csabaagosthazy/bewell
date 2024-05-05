@@ -37,9 +37,7 @@
   }
 }
 
-html {
-  background-color: #F5F5DC;
-}
+
 
 .slider {
   width: 75%;
@@ -196,6 +194,7 @@ a {
 /* BACKGROUND */
 .background {
   position: relative;
+  background-color: #DDB892;
 }
 
 .background::before {
@@ -218,7 +217,6 @@ a {
 .background p {
   position: relative; /* Szövegek relatív pozícióba helyezése */
   z-index: 1; /* Szövegek előtérbe helyezése */
-  color: white;
 }
 
 
@@ -257,23 +255,27 @@ a {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+html {
+  background-color: #DDB892;
+}
+
 .home-egyedi {
   height: 100%;
-  background-color: #F5F5DC;
+  background-color: #DDB892;
 }
 
 
 .container-beige {
-  background-color: #F5F5DC;
+  background-color: #DDB892;
 }
 
 .kitolto {
-  height: 100px;
-  background-color: #F5F5DC;
+  height: 105px;
+  background-color: #DDB892;
 }
 
 .teljes {
-  background-color: #F5F5DC;
+  background-color: #DDB892;
 }
 
 .szoveg {
@@ -281,7 +283,7 @@ a {
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 55px;
-  
+  color: #1B263B;
 }
 
 body {
