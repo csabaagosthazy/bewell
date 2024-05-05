@@ -14,7 +14,7 @@ function Footer() {
           <div class="col-md-6">
             <p>
               Email:{" "}
-              <a href="mailto:kozmagdi28@gmail.com">kozmagdi28@gmail.com</a>
+              <a href="mailto:legyjolkozpont@gmail.com">legyjolkozpont@gmail.com</a>
             </p>
           </div>
         </div>

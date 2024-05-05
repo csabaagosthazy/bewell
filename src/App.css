@@ -37,8 +37,6 @@
   }
 }
 
-
-
 .slider {
   width: 75%;
   height: 75%;
@@ -51,7 +49,7 @@ a {
 
 .background-nls {
   position: relative;
-  background-color: #F5F5DC;
+  background-color: #f5f5dc;
 }
 
 .background-nls::before {
@@ -68,7 +66,6 @@ a {
   /* background-color: rgba(245, 245, 0, 1); */
   filter: brightness(0.5); /* Fekete filter alkalmazása */
   z-index: -1; /* Háttér mögé helyezés */
-
 }
 
 .background-nls h5,
@@ -76,7 +73,6 @@ a {
   position: relative; /* Szövegek relatív pozícióba helyezése */
   z-index: 1; /* Szövegek előtérbe helyezése */
 }
-
 
 /* SAFE LASER */
 .background-safe-laser {
@@ -105,7 +101,6 @@ a {
   z-index: 1; /* Szövegek előtérbe helyezése */
 }
 
-
 /* BACKGROUND FREKVENCIA */
 .background-frekvencia {
   position: relative;
@@ -133,11 +128,10 @@ a {
   z-index: 1; /* Szövegek előtérbe helyezése */
 }
 
-
 /* BACKGROUND PIOCA */
 .background-pioca {
   position: relative;
-  background-color: #F5F5DC;
+  background-color: #f5f5dc;
 }
 
 .background-pioca::before {
@@ -153,7 +147,7 @@ a {
   background-size: cover;
   filter: brightness(0.5); */
   /* background-color: rgba(225, 62, 62, 0.8); */
-  z-index: -1; 
+  z-index: -1;
 }
 
 .background-pioca h5,
@@ -161,7 +155,6 @@ a {
   position: relative; /* Szövegek relatív pozícióba helyezése */
   z-index: 1; /* Szövegek előtérbe helyezése */
 }
-
 
 /* MAGAMROL */
 .background-magamrol {
@@ -179,9 +172,9 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; */
-  filter: brightness(0.5);  
+  filter: brightness(0.5);
   background-color: rgba(186, 186, 102, 0.8);
-  z-index: -1; 
+  z-index: -1;
 }
 
 .background-magamrol h5,
@@ -189,12 +182,10 @@ a {
   z-index: 1; /* Szövegek előtérbe helyezése */
 }
 
-
-
 /* BACKGROUND */
 .background {
   position: relative;
-  background-color: #E3D5CA;
+  background-color: #e3d5ca;
 }
 
 .background::before {
@@ -219,7 +210,6 @@ a {
   z-index: 1; /* Szövegek előtérbe helyezése */
 }
 
-
 .kep-sotet::before {
   content: "";
   position: absolute;
@@ -234,7 +224,7 @@ a {
 .kor-kep {
   width: 300px; /* A kép szélessége */
   height: 300px; /* A kép magassága */
-  background-image: url('./img/elokep-halvany.jpg'); /* Helyettesítsd az útvonalat a kép elérési útvonalával */
+  background-image: url("./img/elokep-halvany.jpg"); /* Helyettesítsd az útvonalat a kép elérési útvonalával */
   background-size: cover; /* Az egész képet jeleníti meg a háttérben */
   background-position: center; /* Középre igazítja a képet */
   border-radius: 50%; /* Kerekített szélek */
@@ -246,7 +236,6 @@ a {
 .row {
   margin: 0px !important;
 }
-
 
 .kep-egyedi {
   border-radius: 75%;
@@ -279,38 +268,40 @@ a {
 }
 
 html {
-  background-color: #E3D5CA;
+  background-color: #e3d5ca;
 }
 
 .home-egyedi {
   height: 100%;
-  background-color: #E3D5CA;
+  background-color: #e3d5ca;
 }
 
-
 .container-beige {
-  background-color: #E3D5CA;
+  background-color: #e3d5ca;
 }
 
 .kitolto {
   height: 105px;
-  background-color: #E3D5CA;
+  background-color: #e3d5ca;
 }
 
 .teljes {
-  background-color: #E3D5CA;
+  background-color: #e3d5ca;
 }
 
 .bg-dark {
-  background-color: #5E503F !important;
+  background-color: #5e503f !important;
 }
 
 .szoveg {
-  font-family: "Dancing Script", cursive;
+  /* font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
+  font-style: normal; */
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
   font-style: normal;
   font-size: 55px;
-  color: #1B263B;
+  color: #1b263b;
 }
 
 body {
