@@ -51,7 +51,9 @@ function Frekvencia() {
         </div>
       </div>
 
-      <div className="kitolto d-none d-md-block"></div>
+      <div className="kitolto"></div>
+      <div className="kitolto"></div>
+      <div className="kitolto"></div>
 
       <br />
       <br />
