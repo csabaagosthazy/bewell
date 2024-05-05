@@ -21,14 +21,14 @@ function Frekvencia() {
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
-              className="m-3 rounded border"
+              className="m-3 rounded"
               style={{ width: "75%" }}
               src="images/plasma-generator.jpg"
               alt="plasma-generator.JPG"
             />
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
-            <div class="card border-0 shadow p-2 m-auto">
+            <div class="p-2 m-auto">
               <h5>Frekvencia terápia</h5>
               <p>
                 A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,

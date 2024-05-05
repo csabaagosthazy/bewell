@@ -36,13 +36,14 @@ function Home() {
         </div>
       </div> */}
 
-      <div class="container home-egyedi text-center">
-        <img
+      <div class="container home-egyedi text-center kep-sotet pt-3">
+        {/* <img
           src="/images/elokep.jpg"
-          className="mt-4 m-auto rounded img-fluid"
+          className="mt-4 m-auto rounded img-fluid "
           alt=""
           style={{ maxWidth: "75%" }}
-        />
+        /> */}
+        <div class="kor-kep m-auto"></div>
         <blockquote class="blockquote mt-3">
           <p class="mb-0 text-center szoveg">
             Üdvözlöm a légyjólközpont oldalán!
@@ -50,6 +51,7 @@ function Home() {
         </blockquote>
       </div>
 
+      <div className="kitolto  d-sm-block"></div>
       <div className="kitolto  d-sm-block"></div>
       <div className="kitolto  d-sm-block"></div>
 

@@ -24,14 +24,14 @@ function Safe() {
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
-              className="m-3 rounded border"
+              className="m-3 rounded"
               style={{ width: "50%" }}
               src="/images/safe-laser2.jpg"
               alt="safe-laser.jpg"
             />
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
-            <div class="card border-0 shadow p-2 m-auto">
+            <div class="p-2 m-auto">
               <h5>Safe laser</h5>
               <p>
                 A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül

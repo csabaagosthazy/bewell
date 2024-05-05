@@ -178,8 +178,8 @@ a {
   /* background-image: url('./img/bgnd.jpeg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
-  filter: brightness(0.5); */ 
+  background-size: cover; */
+  filter: brightness(0.5);  
   background-color: rgba(186, 186, 102, 0.8);
   z-index: -1; 
 }
@@ -194,7 +194,7 @@ a {
 /* BACKGROUND */
 .background {
   position: relative;
-  background-color: #DDB892;
+  background-color: #F4D58D;
 }
 
 .background::before {
@@ -219,6 +219,29 @@ a {
   z-index: 1; /* Szövegek előtérbe helyezése */
 }
 
+
+.kep-sotet::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fekete átlátszó háttér */
+  z-index: -1;
+}
+
+.kor-kep {
+  width: 300px; /* A kép szélessége */
+  height: 300px; /* A kép magassága */
+  background-image: url('./img/elokep3.jpg'); /* Helyettesítsd az útvonalat a kép elérési útvonalával */
+  background-size: cover; /* Az egész képet jeleníti meg a háttérben */
+  background-position: center; /* Középre igazítja a képet */
+  border-radius: 50%; /* Kerekített szélek */
+  overflow: hidden; /* A tartalom kívül eső részei el vannak rejtve */
+  border: 8px solid transparent; /* Átlátszó szegély */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Árnyék, ami elmosódást ad a kép szélén */
+}
 
 .row {
   margin: 0px !important;
@@ -256,26 +279,26 @@ a {
 }
 
 html {
-  background-color: #DDB892;
+  background-color: #F4D58D;
 }
 
 .home-egyedi {
   height: 100%;
-  background-color: #DDB892;
+  background-color: #F4D58D;
 }
 
 
 .container-beige {
-  background-color: #DDB892;
+  background-color: #F4D58D;
 }
 
 .kitolto {
   height: 105px;
-  background-color: #DDB892;
+  background-color: #F4D58D;
 }
 
 .teljes {
-  background-color: #DDB892;
+  background-color: #F4D58D;
 }
 
 .szoveg {

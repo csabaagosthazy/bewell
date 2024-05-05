@@ -23,14 +23,14 @@ function NLS() {
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center p-3">
             <img
-              className="m-3 rounded border"
+              className="m-3 rounded"
               src="/images/nls.jpg"
               style={{ width: "75%" }}
               alt="baba.jpg"
             />
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
-            <div class="card border-0 shadow p-2 m-auto">
+            <div class="p-2 m-auto">
               <h5>NLS Diagnosztika</h5>
               <p>
                 E technológia átfogó elemzést tesz lehetővé az emberi test

@@ -23,14 +23,14 @@ function Pioca() {
         <div className="row">
           <div className="col-md-6 col-lg-6 col-xl-6 text-center">
             <img
-              className="m-3 rounded border img-fluid"
+              className="m-3 rounded img-fluid"
               src="images/piroca_magide.jpg"
               alt="pioca.jpeg"
               style={{ maxWidth: "75%", width: "50%" }}
             />
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
-            <div className="card border-0 shadow p-2 m-auto">
+            <div className="p-2 m-auto">
               <h5>Pióca terápia</h5>
               <p>
                 A hirudoterápia hatékony és mellékhatások nélküli módszer
