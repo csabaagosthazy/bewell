@@ -194,7 +194,7 @@ a {
 /* BACKGROUND */
 .background {
   position: relative;
-  background-color: #E3D5CA;
+  background-color: #E6CCB2;
 }
 
 .background::before {
@@ -279,26 +279,26 @@ a {
 }
 
 html {
-  background-color: #E3D5CA;
+  background-color: #E6CCB2;
 }
 
 .home-egyedi {
   height: 100%;
-  background-color: #E3D5CA;
+  background-color: #E6CCB2;
 }
 
 
 .container-beige {
-  background-color: #E3D5CA;
+  background-color: #E6CCB2;
 }
 
 .kitolto {
   height: 105px;
-  background-color: #E3D5CA;
+  background-color: #E6CCB2;
 }
 
 .teljes {
-  background-color: #E3D5CA;
+  background-color: #E6CCB2;
 }
 
 .szoveg {
