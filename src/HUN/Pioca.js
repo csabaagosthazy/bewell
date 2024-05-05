@@ -61,7 +61,7 @@ function Pioca() {
               className="card border-0 shadow m-auto"
             >
               <img
-                src="/images/pioca_magdie2.jpg"
+                src="/images/pioca-2.jpg"
                 className="card-img-top m-auto"
                 alt="bgnd.jpeg"
               />
