@@ -194,7 +194,7 @@ a {
 /* BACKGROUND */
 .background {
   position: relative;
-  background-color: #F4D58D;
+  background-color: #F5F5DC;
 }
 
 .background::before {
@@ -234,7 +234,7 @@ a {
 .kor-kep {
   width: 300px; /* A kép szélessége */
   height: 300px; /* A kép magassága */
-  background-image: url('./img/elokep3.jpg'); /* Helyettesítsd az útvonalat a kép elérési útvonalával */
+  background-image: url('./img/elokep-halvany.jpg'); /* Helyettesítsd az útvonalat a kép elérési útvonalával */
   background-size: cover; /* Az egész képet jeleníti meg a háttérben */
   background-position: center; /* Középre igazítja a képet */
   border-radius: 50%; /* Kerekített szélek */
@@ -279,26 +279,26 @@ a {
 }
 
 html {
-  background-color: #F4D58D;
+  background-color: #F5F5DC;
 }
 
 .home-egyedi {
   height: 100%;
-  background-color: #F4D58D;
+  background-color: #F5F5DC;
 }
 
 
 .container-beige {
-  background-color: #F4D58D;
+  background-color: #F5F5DC;
 }
 
 .kitolto {
   height: 105px;
-  background-color: #F4D58D;
+  background-color: #F5F5DC;
 }
 
 .teljes {
-  background-color: #F4D58D;
+  background-color: #F5F5DC;
 }
 
 .szoveg {
