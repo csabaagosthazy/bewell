@@ -76,6 +76,7 @@ function NLS() {
             <div className="card border-0 shadow">
             <div className="slider mt-4 m-auto">
               <Slider {...settings}>
+              <img src="images/baba.jpg" className="rounded" alt="baba" />
                 <img src="images/baba+magdi2.jpg" className="rounded" alt="baba+magdi" />
                 <img src="images/nls_bacsi.jpg" className="rounded" alt="nls_bacsi" />
                 <img src="images/baba+magdi.jpg" className="rounded" alt="baba+magdi" />
