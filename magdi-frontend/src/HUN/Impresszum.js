@@ -83,10 +83,7 @@ function Impresszum() {
           </div>
         </div>
       </div>
-
-      {/* További tartalom Lorem Ipsummal */}
-      {/* ... */}
-
+      
       <Footer />
     </div>
   );

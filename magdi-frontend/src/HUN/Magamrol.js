@@ -3,7 +3,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from "./Footer";
 
 function Magamrol() {
-
   return (
     <div className="teljes">
       <div className="background">
@@ -30,13 +29,13 @@ function Magamrol() {
               </p>
               <br />
               <p className="card-text">
-                  Azért választottam a honlapomon felsorolt fizikai és közérzet
-                  javító terápiákat és azért merültem el bennük, mert
-                  szenvedélyesen érdekel az egészség, szeretnék másoknak is
-                  segíteni abban, hogy megismertessem, hogyan lehet a
-                  hagyományos módszereket és a modern technológia eszközeit
-                  kombinálva javítani az egészségi állapotukon.
-                </p>
+                Azért választottam a honlapomon felsorolt fizikai és közérzet
+                javító terápiákat és azért merültem el bennük, mert
+                szenvedélyesen érdekel az egészség, szeretnék másoknak is
+                segíteni abban, hogy megismertessem, hogyan lehet a hagyományos
+                módszereket és a modern technológia eszközeit kombinálva
+                javítani az egészségi állapotukon.
+              </p>
             </div>
           </div>
         </div>
@@ -55,9 +54,6 @@ function Magamrol() {
           </div>
         </div>
       </div>
-
-      {/* További tartalom Lorem Ipsummal */}
-      {/* ... */}
 
       <Footer />
     </div>
