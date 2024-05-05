@@ -28,7 +28,7 @@ function App() {
       <div>
         <Router>
           <nav
-            className="navbar bg-dark border-bottom border-body navbar-expand-lg"
+            className="navbar bg-dark border-body navbar-expand-lg"
             data-bs-theme="dark"
           >
             <div className="container-fluid">

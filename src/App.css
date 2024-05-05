@@ -301,6 +301,10 @@ html {
   background-color: #E3D5CA;
 }
 
+.bg-dark {
+  background-color: #5E503F !important;
+}
+
 .szoveg {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
