@@ -39,17 +39,28 @@ function App() {
                 Startseite
               </Link>
               <div className="zaszlok text-center">
+                <a href="http://plazma.ujjweb.hu">
                   <img
                     className="m-1 rounded border zaszlo-img"
                     src="/images/hun.png"
                     alt="hun.JPG"
                   />
+                </a>
+                <a href="http://plazmaeng.ujjweb.hu">
                   <img
                     className="m-1 rounded border zaszlo-img"
                     src="/images/eng.png"
                     alt="eng.JPG"
                   />
-                </div>
+                </a>
+                <a href="http://plazmade.ujjweb.hu">
+                  <img
+                    className="m-1 rounded border zaszlo-img"
+                    src="/images/aus.png"
+                    alt="eng.JPG"
+                  />
+                </a>
+              </div>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -66,7 +77,7 @@ function App() {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <Link className="nav-link" to="/NLS" onClick={toggleNavbar}>
-                    NLS Diagnostik
+                      NLS Diagnostik
                     </Link>
                   </li>
                   <li className="nav-item">
