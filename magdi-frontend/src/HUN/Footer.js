@@ -22,7 +22,7 @@ function Footer() {
           Impresszum
         </Link>
         <div class="row">
-          <p className="text-center">© 2024 plazma.ujjweb.hu. Minden jog fenntartva.</p>
+          <p className="text-center">© 2024 legyjolkozpont.hu. Minden jog fenntartva.</p>
         </div>
       </div>
     </footer>
