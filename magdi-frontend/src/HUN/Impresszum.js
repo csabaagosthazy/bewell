@@ -21,7 +21,7 @@ function Impresszum() {
                   >
                     <Link to="/"  style={{color: "black",}}>https://legyjolkozpont.hu</Link>
                   </span>{" "}
-                  felelős üzemeltetője Kozma Magdolna 8200 Balatonalmádi.
+                  felelős üzemeltetője Kozma Magdolna 8220 Balatonalmádi.
                 </li>
                 <li>
                   A{" "}

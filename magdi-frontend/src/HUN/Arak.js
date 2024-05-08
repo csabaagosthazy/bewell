@@ -11,7 +11,7 @@ function Arak() {
                 <h3>Balatonalmádiban érvényes árak</h3>
                 <ul>
                   <h5 className="card-title">NLS diagnosztika</h5>
-                  <li>60 és 90 perc - 15.000 Ft</li>
+                  <li>60 és 90 perc (tüneteggyüttestől függően) - 15.000 Ft</li>
                   <br />
                   <h5 className="card-title">Frekvencia terápia</h5>
                   <li>60 perc - 10.000 Ft</li>
@@ -26,6 +26,7 @@ function Arak() {
                     további piócárat - 1.500 Ft / db
                   </li>
                 </ul>
+                <p>Több kezelés igénybevétel esetén kedvezményt bíztosítunk.</p>
               </div>
             </div>
           </div>

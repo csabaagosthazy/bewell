@@ -18,15 +18,16 @@ function Frekvencia() {
               <h5>Frekvencia terápia</h5>
               <p>
                 A frekvenciaterápia (plazmagenerátoros kezelés) olyan módszer,
-                amelyben a rezgések alkalmazásával kioltják az élősködőket,
+                amelyben a rezgések alkalmazásával kioltja az élősködőket,
                 kórokozókat, különböző mikroorganizmusokat, miközben
-                harmonizálják és támogatják a szervezetet.
+                harmonizálja és támogatja a szervezetet.
               </p>
               <br />
               <p className="card-text">
-                A kezelés során a gép azonosítja a betegségeket okozó
-                rezgéseket, majd ezeket a sajátos frekvenciákat használja föl a
-                kórokozók kioltására. Ezek az irányított rezgések lengésbe
+                Az első kezelés előtt a kezelő egyénre szabottan- NLS
+                diagnosztikával vagy Fscan 4-el azonosítja a betegségeket okozó
+                rezgéseket. Majd ezeket a sajátos frekvenciákat a gép generálja
+                a kórokozók kioltására. Ezek az irányított rezgések lengésbe
                 hozzák a mikroorganizmus sejtfalát, membránját, azok nem bírják
                 elviselni a növekvő lengést és egy idő után megrepednek. Ezzel a
                 mikroorganizmus elpusztul, azaz deaktiválódik!

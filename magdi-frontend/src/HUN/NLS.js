@@ -39,7 +39,7 @@ function NLS() {
                 támaszkodik.
               </p>
               <br />
-              <h5 className="card-title text-center">Magába foglalja:</h5>
+              <h5 className="card-title text-center">Magába foglalja a:</h5>
               <div className="card-text">
                 <ul>
                   <li>
@@ -53,8 +53,8 @@ function NLS() {
                     betegségek, endometriózis kimutatását
                   </li>
                   <li>
-                    Endokrinológiát, a szervezet hormonháztartását: pajzsmirigy,
-                    agyalapi mirigy, petefészek, herék, mellékvese állapotát
+                    Endokrinológiát,ami a szervezet hormonháztartását: pajzsmirigy,
+                    agyalapi mirigy, petefészek, herék, mellékvese állapotát vizsgálja.
                   </li>
                   <li>
                     Mikroorganizmusok vizsgálatát: a baktériumok, gombák,

@@ -19,7 +19,7 @@ function Safe() {
             <div class="p-2 m-auto">
               <h5>Safe laser</h5>
               <p>
-                A Safe Laser 1800 Infra infravörös (808nm-es) fénye rendkívül
+                A Safe Laser 1800 infravörös (808nm-es) fénye rendkívül
                 mélyen hatol a szövetekbe, akár 10 cm-es mélységig is, kiválóan
                 alkalmazható a mozgásszervi betegségek terápiájában. A lézerfény
                 aktiválja az ATP termelődését, mely az energiatermelés alapja a

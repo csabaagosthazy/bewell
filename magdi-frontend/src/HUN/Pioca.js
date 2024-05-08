@@ -31,7 +31,7 @@ function Pioca() {
           </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div className="p-2 m-auto">
-              <h5>Pióca terápia</h5>
+              <h5>Népi pióca kezelés</h5>
               <p>
                 A hirudoterápia hatékony és mellékhatások nélküli módszer
                 különféle betegségek kezelésére, elsősorban érrendszeri
@@ -40,10 +40,10 @@ function Pioca() {
               </p>
               <br />
               <p className="card-text">
-                A piócák segítenek enyhíteni a véráramlást, normalizálni a
-                vérnyomást, a vér sűrűségét, és kezelni a vérrögképződéssel
-                kapcsolatos problémákat. Emellett hatékonyak az aranyér, az
-                ízületi, idegrendszeri és bőrbetegségek kezelésében, valamint az
+                A piócák segítik a véráramlást, normalizálják a vérnyomást, a
+                vér sűrűségét,és kezelik a vérrögképződéssel kapcsolatos
+                problémákat. Emellett hatékonyak az aranyér, az ízületi,
+                idegrendszeri és bőrbetegségek kezelésében, valamint az
                 immunrendszer erősítésében is. A piócaterápia széles körben
                 alkalmazható és jó eredményeket mutat, valamint kozmetikai
                 célokra is felhasználható.
