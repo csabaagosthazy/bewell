@@ -40,24 +40,17 @@ function App() {
                 Főoldal
               </Link>
               <div className="zaszlok text-center">
-                <a href="http://plazma.ujjweb.hu">
+                <a href="http:/legyjolkozpont.hu">
                   <img
                     className="m-1 rounded border zaszlo-img"
                     src="/images/hun.png"
                     alt="hun.JPG"
                   />
                 </a>
-                <a href="http://plazmaeng.ujjweb.hu">
+                <a href="http://eng.legyjolkozpont.hu">
                   <img
                     className="m-1 rounded border zaszlo-img"
                     src="/images/eng.png"
-                    alt="eng.JPG"
-                  />
-                </a>
-                <a href="http://plazmade.ujjweb.hu">
-                  <img
-                    className="m-1 rounded border zaszlo-img"
-                    src="/images/aus.png"
                     alt="eng.JPG"
                   />
                 </a>
