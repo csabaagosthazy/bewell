@@ -57,15 +57,22 @@ function Pioca() {
       <div className="container-beige container">
         <div className="row">
           <div className="col-md-12 mt-3">
-            <div
-              style={{ width: "75%" }}
-              className="card border-0 shadow m-auto"
-            >
-              <img
-                src="/images/pioca-2.jpg"
-                className="card-img-top m-auto"
-                alt="bgnd.jpeg"
-              />
+            <div className="card border-0 shadow">
+              <div className="slider mt-4 m-auto">
+                <Slider {...settings}>
+                  <img
+                    src="images/pioca-2.jpg"
+                    className="rounded"
+                    alt="baba"
+                  />
+                  <img
+                    src="images/pioca_magdie2.jpg"
+                    className="rounded"
+                    alt="baba+magdi"
+                  />
+                </Slider>
+                <br />
+              </div>
             </div>
           </div>
         </div>
