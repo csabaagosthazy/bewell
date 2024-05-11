@@ -22,7 +22,7 @@ function Safe() {
                 A Safe Laser 1800 infravörös (808nm-es) fénye rendkívül
                 mélyen hatol a szövetekbe, akár 10 cm-es mélységig is, kiválóan
                 alkalmazható a mozgásszervi betegségek terápiájában. A lézerfény
-                aktiválja az ATP termelődését, mely az energiatermelés alapja a
+                aktiválja az ATP termelődését, amely az energiatermelés alapja a
                 sejtekben.
               </p>
               <br />

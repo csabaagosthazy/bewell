@@ -7,14 +7,6 @@ function Magamrol() {
     <div className="teljes">
       <div className="background">
         <div className="row">
-          <div className="col-md-6 col-lg-6 col-xl-6 text-center">
-            <img
-              className="m-3 rounded"
-              style={{ width: "75%" }}
-              src="images/magamrol.jpg"
-              alt="magamrol.jpg"
-            />
-          </div>
           <div className="col-md-4 col-lg-4 col-xl-4 p-3">
             <div class="p-2 m-auto">
               <h5>About Me</h5>
@@ -24,7 +16,7 @@ function Magamrol() {
                 loved ones. Since childhood, I have been introduced to the world
                 of traditional remedies and the self-healing opportunities
                 offered by nature, which I have been practicing ever since.
-                These knowledge have deeply rooted in me, intertwining closely
+                This knowledge have deeply rooted in me, intertwining closely
                 with my everyday life.
               </p>
               <br />
@@ -36,6 +28,14 @@ function Magamrol() {
                 methods with modern technological tools.
               </p>
             </div>
+          </div>
+          <div className="col-md-6 col-lg-6 col-xl-6 text-center">
+            <img
+              className="m-3 rounded"
+              style={{ width: "75%" }}
+              src="images/magamrol.jpg"
+              alt="magamrol.jpg"
+            />
           </div>
         </div>
       </div>

@@ -24,8 +24,8 @@ function Frekvencia() {
               </p>
               <br />
               <p className="card-text">
-                Az első kezelés előtt a kezelő egyénre szabottan- NLS
-                diagnosztikával vagy Fscan 4-el azonosítja a betegségeket okozó
+                Az első kezelés előtt a kezelő egyénre szabottan - NLS
+                diagnosztikával vagy Fscan 4-el - azonosítja a betegségeket okozó
                 rezgéseket. Majd ezeket a sajátos frekvenciákat a gép generálja
                 a kórokozók kioltására. Ezek az irányított rezgések lengésbe
                 hozzák a mikroorganizmus sejtfalát, membránját, azok nem bírják

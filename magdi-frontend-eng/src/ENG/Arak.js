@@ -11,7 +11,7 @@ function Arak() {
                 <h3>Prices valid in Balatonalmádi</h3>
                 <ul>
                   <h5 className="card-title">NLS diagnostics</h5>
-                  <li>60 and 90 minutes - 15.000 HUF</li>
+                  <li>Between 60 and 90 minutes, depending ont he symptoms presented - 15.000 HUF</li>
                   <br />
                   <h5 className="card-title">Frequency therapy</h5>
                   <li>60 minutes - 10.000 HUF</li>

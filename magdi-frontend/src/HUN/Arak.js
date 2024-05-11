@@ -11,7 +11,7 @@ function Arak() {
                 <h3>Balatonalmádiban érvényes árak</h3>
                 <ul>
                   <h5 className="card-title">NLS diagnosztika</h5>
-                  <li>60 és 90 perc (tüneteggyüttestől függően) - 15.000 Ft</li>
+                  <li>60 és 90 perc között (tüneteggyüttestől függően) - 15.000 Ft</li>
                   <br />
                   <h5 className="card-title">Frekvencia terápia</h5>
                   <li>60 perc - 10.000 Ft</li>
@@ -23,10 +23,10 @@ function Arak() {
                   <li>30 és 90 perc között - 12.000 Ft</li>
                   <li>
                     Az alapkezelésben 2db pióca van, amennyiben szükség lenne
-                    további piócárat - 1.500 Ft / db
+                    további piócára - 1.500 Ft / db
                   </li>
                 </ul>
-                <p>Több kezelés igénybevétel esetén kedvezményt bíztosítunk.</p>
+                <p>Több kezelés azonos alkalommal történő igénybevétele esetén kedvezményt bíztosítunk.</p>
               </div>
             </div>
           </div>

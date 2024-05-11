@@ -53,7 +53,7 @@ function NLS() {
                     betegségek, endometriózis kimutatását
                   </li>
                   <li>
-                    Endokrinológiát,ami a szervezet hormonháztartását: pajzsmirigy,
+                    Endokrinológiát, ami a szervezet hormonháztartását: pajzsmirigy,
                     agyalapi mirigy, petefészek, herék, mellékvese állapotát vizsgálja.
                   </li>
                   <li>

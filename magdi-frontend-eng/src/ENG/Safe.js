@@ -32,7 +32,7 @@ function Safe() {
                 connections and enhancing the strength of signals transmitted
                 along nerve fibers. Its biological effects include pain relief,
                 anti-inflammatory properties, and accelerating the healing of
-                muscles, tendons, and joints. At higher doses, it may even be
+                muscles, tendons, and joints. In higher doses, it may even be
                 suitable for regenerating joint cartilage surfaces.
               </p>
             </div>

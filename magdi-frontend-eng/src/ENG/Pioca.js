@@ -44,7 +44,7 @@ function Pioca() {
                 formation. Additionally, they are effective in treating
                 hemorrhoids, joint, neurological, and skin diseases, as well as
                 strengthening the immune system. Leech therapy is widely
-                applicable and shows promising results, and can also be used for
+                applicable and shows promising results. It can also be used for
                 cosmetic purposes.
               </p>
             </div>

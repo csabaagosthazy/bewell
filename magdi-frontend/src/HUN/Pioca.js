@@ -35,13 +35,13 @@ function Pioca() {
               <p>
                 A hirudoterápia hatékony és mellékhatások nélküli módszer
                 különféle betegségek kezelésére, elsősorban érrendszeri
-                problémáknál alkalmazzák, a nyirok keringés serkentésére, segít
+                problémáknál alkalmazzák, a nyirok keringés serkentésére. Segít
                 felszabadítani a méreganyagokat.
               </p>
               <br />
               <p className="card-text">
-                A piócák segítik a véráramlást, normalizálják a vérnyomást , a
-                vér sűrűségét,és kezelik a vérrögképződéssel kapcsolatos
+                A piócák segítik a véráramlást, normalizálják a vérnyomást, a
+                vér sűrűségét, és kezelik a vérrögképződéssel kapcsolatos
                 problémákat. Emellett hatékonyak az aranyér, az ízületi,
                 idegrendszeri és bőrbetegségek kezelésében, valamint az
                 immunrendszer erősítésében is. A piócaterápia széles körben

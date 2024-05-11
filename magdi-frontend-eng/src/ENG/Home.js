@@ -12,7 +12,7 @@ function Home() {
         <div class="kor-kep m-auto"></div>
         <blockquote class="blockquote mt-3">
           <p class="mb-0 text-center szoveg">
-            Welcome the légyjólközpont page!
+            Welcome to the homepage of the good-health cenre "légyjólközpont"!
           </p>
         </blockquote>
       </div>

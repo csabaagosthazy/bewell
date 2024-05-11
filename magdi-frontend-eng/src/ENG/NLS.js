@@ -43,14 +43,14 @@ function NLS() {
               <div className="card-text">
                 <ul>
                   <li>
-                    Gastroenterology, which deals with the digestive system
+                    Gastroenterology, which deals with the digestive system.
                   </li>
                   <li>
                     Pulmonology, which deals with the lungs and respiratory
-                    system
+                    system.
                   </li>
                   <li>
-                    Gynecological complaints and disorders: detection of cysts,
+                    The examination of gynecological complaints and disorders: detection of cysts,
                     sexually transmitted diseases, endometriosis, etc.
                   </li>
                   <li>
@@ -59,7 +59,7 @@ function NLS() {
                     etc.
                   </li>
                   <li>
-                    Examination of microorganisms: detects the presence and
+                    The examination of microorganisms: detects the presence and
                     treatment options of bacteria, fungi, parasites, and viral
                     infections.
                   </li>

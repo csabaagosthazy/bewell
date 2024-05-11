@@ -17,10 +17,10 @@ function Frekvencia() {
             <div class="p-2 m-auto">
               <h5>Frequency therapy</h5>
               <p>
-                Frequency therapy (plasma generator treatment) is a method in
-                which parasites, pathogens, and various microorganisms are
-                neutralized using vibrations while harmonizing and supporting
-                the body.
+                During the first treatment the frequencies causing the medical
+                problems will individually be determined using NLS Diagnostics
+                or Fscan 4. Then the machine will generate these very
+                frequencies to neutralize the pathogens.
               </p>
               <br />
               <p className="card-text">
