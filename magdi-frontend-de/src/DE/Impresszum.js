@@ -21,10 +21,10 @@ function Impresszum() {
                     style={{ textDecoration: "underline", fontWeight: "bold" }}
                   >
                     <Link to="/" style={{ color: "black" }}>
-                      https://legyjolkozpont.hu
+                      https://legyjolkozpont.at
                     </Link>
                   </span>{" "}
-                  ist Magdolna Kozma, 8200 Balatonalmádi.
+                  ist Magdolna Kozma. Steuernummer: 90136188-1-39
                 </li>
                 <li>
                   <span
@@ -35,7 +35,7 @@ function Impresszum() {
                     }}
                   >
                     <Link to="/" style={{ color: "black" }}>
-                      https://legyjolkozpont.hu
+                      https://legyjolkozpont.at
                     </Link>
                   </span>{" "}
                   ist rein privat und dient nur zur Information. Es handelt sich
@@ -57,7 +57,7 @@ function Impresszum() {
                   Magdolna Kozma, Balatonalmádi (Ungarn). Alle Rechte
                   vorbehalten. Alle Texte und Aufnahmen auf der Website sind
                   Eigenproduktion. Texte, Bilder, Grafiken sowie deren Anordnung
-                  auf https://legyjolkozpont.hu unterliegen dem Urheberrecht und
+                  auf https://legyjolkozpont.at unterliegen dem Urheberrecht und
                   anderen Gesetzen zum Schutz des geistigen Eigentums.
                 </p>
                 <br />

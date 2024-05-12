@@ -21,7 +21,7 @@ function Impresszum() {
                       https://legyjolkozpont.hu
                     </Link>
                   </span>{" "}
-                  is Magdolna Kozma, Balatonalmádi 8200.
+                  is Magdolna Kozma, Balatonalmádi 8200. Tax number: 90136188-1-39.
                 </li>
                 <li>
                   The content of{" "}

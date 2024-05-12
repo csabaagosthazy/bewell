@@ -11,19 +11,19 @@ function Arak() {
                 <h3>Balatonalmádi aktuelle Preise</h3>
                 <ul>
                   <h5 className="card-title">NLS Diagnostik</h5>
-                  <li>60 und 90 Minuten - 15.000 Ft</li>
+                  <li>60 und 90 Minuten - 70 €</li>
                   <br />
                   <h5 className="card-title">Frequenztherapie</h5>
-                  <li>60 Minuten - 10.000 Ft</li>
+                  <li>60 Minuten - 50 €</li>
                   <br />
                   <h5 className="card-title">Safe-Laserbehandlung</h5>
-                  <li>40 Minuten - 6.000 Ft</li>
+                  <li>40 Minuten - 20 €</li>
                   <br />
                   <h5 className="card-title">Blutegeltherapie</h5>
-                  <li>30 bis 90 Minuten - 12.000 Ft</li>
+                  <li>30 bis 90 Minuten - 60 €</li>
                   <li>
                     In der Grundbehandlung sind 2 Blutegel enthalten. Bei Bedarf
-                    weitere Blutegel - 1.500 Ft / Stück
+                    weitere Blutegel - 4 € / Stück
                   </li>
                 </ul>
               </div>

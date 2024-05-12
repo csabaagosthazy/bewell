@@ -21,7 +21,7 @@ function Impresszum() {
                   >
                     <Link to="/"  style={{color: "black",}}>https://legyjolkozpont.hu</Link>
                   </span>{" "}
-                  felelős üzemeltetője Kozma Magdolna 8220 Balatonalmádi.
+                  felelős üzemeltetője Kozma Magdolna 8220 Balatonalmádi. Adószám: 90136188-1-39.
                 </li>
                 <li>
                   A{" "}
