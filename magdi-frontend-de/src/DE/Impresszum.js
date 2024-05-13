@@ -21,7 +21,7 @@ function Impresszum() {
                     style={{ textDecoration: "underline", fontWeight: "bold" }}
                   >
                     <Link to="/" style={{ color: "black" }}>
-                      https://legyjolkozpont.at aaaaaaaa
+                      https://legyjolkozpont.at
                     </Link>
                   </span>{" "}
                   ist Magdolna Kozma. Steuernummer: 90136188-1-39
