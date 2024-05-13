@@ -39,14 +39,14 @@ function App() {
                 Homepage
               </Link>
               <div className="zaszlok text-center">
-                <a href="http://legyjolkozpont.hu">
+                <a href="https://legyjolkozpont.hu">
                   <img
                     className="m-1 rounded border zaszlo-img"
                     src="/images/hun.png"
                     alt="hun.JPG"
                   />
                 </a>
-                <a href="http://eng.legyjolkozpont.hu">
+                <a href="https://eng.legyjolkozpont.hu">
                   <img
                     className="m-1 rounded border zaszlo-img"
                     src="/images/eng.png"
