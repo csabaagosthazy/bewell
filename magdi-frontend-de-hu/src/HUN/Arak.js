@@ -11,19 +11,19 @@ function Arak() {
                 <h3>Balatonalmádiban érvényes árak</h3>
                 <ul>
                   <h5 className="card-title">NLS diagnosztika</h5>
-                  <li>60 és 90 perc között (tüneteggyüttestől függően) - 15.000 Ft</li>
+                  <li>60 és 90 perc között (tüneteggyüttestől függően) - 70 Euro</li>
                   <br />
                   <h5 className="card-title">Frekvencia terápia</h5>
-                  <li>60 perc - 10.000 Ft</li>
+                  <li>60 perc - 50 Euro</li>
                   <br />
                   <h5 className="card-title">Safe laser kezelés</h5>
-                  <li>40 perc - 6.000 Ft</li>
+                  <li>40 perc - 20 Euro</li>
                   <br />
                   <h5 className="card-title">Pióca kezelés</h5>
-                  <li>30 és 90 perc között - 12.000 Ft</li>
+                  <li>30 és 90 perc között - 60 Euro</li>
                   <li>
                     Az alapkezelésben 2db pióca van, amennyiben szükség lenne
-                    további piócára - 1.500 Ft / db
+                    további piócára - 4 Euro / db
                   </li>
                 </ul>
                 <p>Több kezelés azonos alkalommal történő igénybevétele esetén kedvezményt bíztosítunk.</p>
