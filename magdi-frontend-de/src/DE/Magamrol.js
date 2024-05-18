@@ -7,16 +7,8 @@ function Magamrol() {
     <div className="teljes">
       <div className="background">
         <div className="row">
-          <div className="col-md-6 col-lg-6 col-xl-6 text-center">
-            <img
-              className="m-3 rounded"
-              style={{ width: "75%" }}
-              src="images/magamrol.jpg"
-              alt="magamrol.jpg"
-            />
-          </div>
-          <div className="col-md-4 col-lg-4 col-xl-4 p-3">
-            <div class="p-2 m-auto">
+          <div className="col-md-4 col-lg-4 col-xl-4 p-3 m-auto">
+            <div class="p-2">
               <h5>Über mich</h5>
               <p>
                 Herzlich willkommen! Ich bin Magdolna Kozma und seit Jahrzehnten
@@ -37,6 +29,14 @@ function Magamrol() {
                 Gesundheit verbessern kann.
               </p>
             </div>
+          </div>
+          <div className="col-md-6 col-lg-6 col-xl-6 text-center">
+            <img
+              className="m-3 rounded"
+              style={{ width: "75%" }}
+              src="images/magamrol.jpg"
+              alt="magamrol.jpg"
+            />
           </div>
         </div>
       </div>
