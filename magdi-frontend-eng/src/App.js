@@ -14,6 +14,7 @@ import Home from "./ENG/Home.js";
 import Impresszum from "./ENG/Impresszum.js";
 import Arak from "./ENG/Arak.js";
 import Videok from "./ENG/Videok.js";
+import NotFound from "./ENG/NotFound.js";
 
 function App() {
   const [collapsed, setCollapsed] = useState(true);
@@ -152,6 +153,7 @@ function App() {
             <Route path="/Impresszum" element={<Impresszum />} />
             <Route path="/Arak" element={<Arak />} />
             <Route path="/Videok" element={<Videok />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Router>
       </div>
