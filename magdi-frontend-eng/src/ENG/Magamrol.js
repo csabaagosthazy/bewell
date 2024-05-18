@@ -16,7 +16,7 @@ function Magamrol() {
                 loved ones. Since childhood, I have been introduced to the world
                 of traditional remedies and the self-healing opportunities
                 offered by nature, which I have been practicing ever since.
-                This knowledge have deeply rooted in me, intertwining closely
+                This knowledge is deeply rooted in me, intertwining closely
                 with my everyday life.
               </p>
               <br />
