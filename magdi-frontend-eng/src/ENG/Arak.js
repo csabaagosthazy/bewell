@@ -8,7 +8,7 @@ function Arak() {
           <div className="col-md-12 mb-4 mb-md-0">
             <div className="mt-4">
               <div className="card-body">
-                <h3>Prices valid in Balatonalmádiaaa</h3>
+                <h3>Prices valid in Balatonalmádi</h3>
                 <ul>
                   <h5 className="card-title">NLS diagnostics</h5>
                   <li>Between 60 and 90 minutes, depending on the symptoms presented - 15.000 HUF</li>
