@@ -1,0 +1,32 @@
+{
+  "name": "bewell",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "googleapis": "^146.0.0",
+    "i18next": "^24.2.2",
+    "next": "15.2.0",
+    "next-auth": "^4.24.11",
+    "next-i18next": "^15.4.2",
+    "next-intl": "^3.26.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.1",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "22.13.10",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.0",
+    "eslint-config-prettier": "^10.0.2"
+  }
+}

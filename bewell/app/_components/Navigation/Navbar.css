@@ -1,0 +1,66 @@
+  
+  .flags {
+    width: 9rem;
+    height: 2.5rem;
+    z-index: 2;
+  }
+  
+  .flag-img {
+    width: 2.5rem;
+    height: 2rem;
+  }
+  
+  .flag-button{
+    padding: 0;
+    border: none;
+    background: none;
+  }
+
+  .egyedi-asd {
+    position: absolute;
+    bottom: -25;
+    width: 100%;
+  }
+  
+  .link {
+    text-decoration: underline;
+    color: rgb(94, 94, 204);
+  }
+  
+  .custom-border {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  html {
+    background-color: #e3d5ca;
+  }
+  
+  .home-egyedi {
+    height: 100%;
+    background-color: #e3d5ca;
+  }
+  
+  .container-beige {
+    background-color: #e3d5ca;
+  }
+  
+  .kitolto {
+    height: 105px;
+    background-color: #e3d5ca;
+  }
+  
+  .teljes {
+    background-color: #e3d5ca;
+  }
+  
+  .bg-dark {
+    background-color: #5e503f !important;
+  }
+  
+  .szoveg {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    color: #1b263b;
+  }
